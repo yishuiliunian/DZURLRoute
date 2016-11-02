@@ -1,0 +1,16 @@
+PODS:
+  - DZURLRoute (0.1.0)
+
+DEPENDENCIES:
+  - DZURLRoute (from `../`)
+
+EXTERNAL SOURCES:
+  DZURLRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZURLRoute: c121e07ca92bfda8a3cfdc5bc332a4254fd4a0b7
+
+PODFILE CHECKSUM: 7115fd9dda7192f8c51cb207459e2b33946539fe
+
+COCOAPODS: 1.1.1
