@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DZURLRoute_Example' do
+  pod 'DZURLRoute', :path => '../'
+
+  target 'DZURLRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
