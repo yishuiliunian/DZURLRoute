@@ -63,3 +63,10 @@ NSString* DZURLRouteJoinParamterString(NSString* url, NSString* query) {
     [str appendString:query];
     return [str copy];
 }
+
+NSURL* DZURLRouteQueryLink(NSString* baseURL, NSDictionary* query)
+{
+    NSString* queryString = DZURLRouteEncodeURLQueryParamters(query);
+    NSString* url = DZURLRouteJoinParamterString(baseURL, queryString);
+    return [NSURL URLWithString:url];
+}

@@ -12,3 +12,4 @@
 FOUNDATION_EXTERN NSString* DZURLRouteEncodeURLQueryParamters(NSDictionary* paramters);
 FOUNDATION_EXTERN NSDictionary* DZURLRouteDecodeURLQueryParamters(NSString* url);
 FOUNDATION_EXTERN NSString* DZURLRouteJoinParamterString(NSString* url, NSString* query);
+FOUNDATION_EXTERN NSURL* DZURLRouteQueryLink(NSString* baseURL, NSDictionary* query);
