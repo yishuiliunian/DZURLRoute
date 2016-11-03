@@ -19,5 +19,6 @@
 
 //
 - (void) addRoutePattern:(NSString*)routePattern handler:(DZURLRoutePatternHandler)handler;
+- (void) add404Handler:(DZURLRoutePatternHandler)handler;
 - (BOOL) routeURL:(NSURL*)url;
 @end

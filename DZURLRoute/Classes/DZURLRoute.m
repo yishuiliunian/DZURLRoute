@@ -11,6 +11,7 @@
 @interface DZURLRoute ()
 {
     NSMutableArray* _route;
+    DZURLRouteRecord* _404Record;
 }
 @end
 
@@ -63,21 +64,30 @@
 }
 - (BOOL) routeURL:(NSURL*)url
 {
-    if (!url) {
+    DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url];
+    BOOL(^Hanlde404)(void) = ^ {
+        if (_404Record.handler) {
+            return _404Record.handler(request);
+        }
         return NO;
+    };
+    if (!url) {
+        return Hanlde404();
     }
     DZURLRouteRecord* record = [self routeRecordHandleURL:url];
     if (!record) {
-        return NO;
+        return Hanlde404();
     }
-    DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url];
     if (record.handler) {
         return record.handler(request);
-    } else {
-        return NO;
     }
     // do not delete the below line , it will handle the rest logic if the function growing
-    return NO;
+    return Hanlde404();
+}
+
+- (void) add404Handler:( DZURLRoutePatternHandler )handler
+{
+    _404Record = [[DZURLRouteRecord alloc] initWithPartern:@"unkonw-404://" handler:handler];
 }
 
 

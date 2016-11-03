@@ -17,6 +17,5 @@
 @property (nonatomic, strong, readonly) NSArray* viewControllerStack;
 @property (nonatomic, strong, readonly) UIViewController* topViewController;
 @property (nonatomic, strong, readonly) UINavigationController* topNavigationController;
-
 - (instancetype) initWithURL:(NSURL*)url;
 @end
