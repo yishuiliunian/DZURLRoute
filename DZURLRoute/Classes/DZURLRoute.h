@@ -10,6 +10,7 @@
 #import "DZURLRouteRecord.h"
 #import "DZURLRouteRequest.h"
 #import "DZURLRouteUtils.h"
+#import "DZUIStackLifeCircleAction.h"
 @interface DZURLRoute : NSObject
 + (instancetype) new NS_UNAVAILABLE;
 - (instancetype) init NS_UNAVAILABLE;
