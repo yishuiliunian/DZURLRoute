@@ -76,7 +76,7 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
     for (int i = (int)allObjects.count-1; i >= 0; i--) {
         id object = allObjects[i];
         if (vc == object) {
-            [_uiStack removePointerAtIndex:i];
+            [_uiStack replacePointerAtIndex:i withPointer:NULL];
         }
     }
     [_uiStack compact];
