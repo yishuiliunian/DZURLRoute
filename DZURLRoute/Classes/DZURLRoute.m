@@ -64,6 +64,9 @@
 }
 - (BOOL) routeURL:(NSURL*)url
 {
+#ifdef DEBUG
+    NSLog(@"[ROUTE] will route %@", url);
+#endif
     DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url];
     BOOL(^Hanlde404)(void) = ^ {
         if (_404Record.handler) {

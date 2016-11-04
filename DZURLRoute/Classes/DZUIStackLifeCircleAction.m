@@ -52,18 +52,12 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
     if (vc) {
         [_uiStack addObject:vc];
     }
-#ifdef DEBUG
-    [self __logUIStack];
-#endif
 }
 
 - (void) hostController:(UIViewController *)vc viewDidDisappear:(BOOL)animated
 {
     [super hostController:vc viewDidDisappear:animated];
     [_uiStack removeObject:vc];
-#ifdef DEBUG
-    [self __logUIStack];
-#endif
 }
 
 - (NSArray*) viewControllerStack
