@@ -60,7 +60,9 @@ NSString* DZURLRouteJoinParamterString(NSString* url, NSString* query) {
     if ([query hasPrefix:@"?"]) {
         query = [query substringFromIndex:1];
     }
-    [str appendString:query];
+    if (query) {
+        [str appendString:query];
+    }
     return [str copy];
 }
 
