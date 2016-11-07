@@ -2,7 +2,7 @@
 //  DZURLRouteRecord.m
 //  Pods
 //
-//  Created by baidu on 2016/11/2.
+//  Created by yishuiliunian on 2016/11/2.
 //
 //
 
@@ -31,7 +31,8 @@
     _regx = regx;
     return self;
 }
-
+//http://
+//http://www.xxx.com
 - (BOOL) canHandlerRequestURL:(NSString *)url
 {
     NSArray<NSTextCheckingResult*> *result = [_regx matchesInString:url options:0 range:NSMakeRange(0, url.length)];

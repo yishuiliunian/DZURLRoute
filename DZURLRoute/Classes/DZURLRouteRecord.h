@@ -2,7 +2,7 @@
 //  DZURLRouteRecord.h
 //  Pods
 //
-//  Created by baidu on 2016/11/2.
+//  Created by yishuiliunian on 2016/11/2.
 //
 //
 
@@ -10,6 +10,11 @@
 
 @class DZURLRouteRequest;
 typedef BOOL (^DZURLRoutePatternHandler)(DZURLRouteRequest* request);
+
+
+/**
+ it is a record of URL pattern that is stored at DZURLRoute. This class is not public , just is used in DZURLRoute lib.
+ */
 @interface DZURLRouteRecord : NSObject
 @property (nonatomic, strong, readonly) NSString* partern;
 @property (nonatomic, strong, readonly) DZURLRoutePatternHandler handler;
