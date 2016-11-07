@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DZURLRoute/DZURLRoute.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NSString-UrlEncode/NSString_UrlEncode.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DZURLRoute/DZURLRoute.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NSString-UrlEncode/NSString_UrlEncode.framework"
 fi

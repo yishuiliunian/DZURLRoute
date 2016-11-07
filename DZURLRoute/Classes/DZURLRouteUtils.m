@@ -7,7 +7,7 @@
 //
 
 #import "DZURLRouteUtils.h"
-#import <NSString-UrlEncode/NSString+URLEncode.h>
+#import "NSString+URLEncode.h"
 NSDictionary* DZURLRouteDecodeURLQueryParamters(NSString* url) {
     NSArray* coms = [url componentsSeparatedByString:@"&"];
     if (coms.count == 0) {

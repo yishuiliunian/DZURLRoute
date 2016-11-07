@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0B2D680F1D84229F9127E2F5 /* Pods_DZURLRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDD04679D1D0D089FA10597 /* Pods-DZURLRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Example/Pods-DZURLRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2F5E06135F9B8713F8030377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F5E06135F9B8713F8030377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DZURLRoute_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZURLRoute_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,10 +58,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6292EF789B506982031A709A /* DZURLRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DZURLRoute.podspec; path = ../DZURLRoute.podspec; sourceTree = "<group>"; };
+		6292EF789B506982031A709A /* DZURLRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DZURLRoute.podspec; path = ../DZURLRoute.podspec; sourceTree = "<group>"; };
 		6EB402A3C2F48598C81FB35F /* Pods-DZURLRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Tests/Pods-DZURLRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CEF666A5A3C208A6ED9AC930 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEF666A5A3C208A6ED9AC930 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8CCFE0F719E9CC804C8B298 /* Pods-DZURLRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Example/Pods-DZURLRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E71277A5361A0DBB768BECB2 /* Pods-DZURLRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Tests/Pods-DZURLRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0B6CDD859B465814DE383FD /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yishuiliunian;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MQ394MS5M9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -350,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B549A44740BAC2BEA81F897A /* [CP] Check Pods Manifest.lock */ = {
@@ -365,7 +368,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DBB3EDF960076FA9484AB814 /* [CP] Copy Pods Resources */ = {
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MQ394MS5M9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZURLRoute/DZURLRoute-Prefix.pch";
 				INFOPLIST_FILE = "DZURLRoute/DZURLRoute-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MQ394MS5M9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZURLRoute/DZURLRoute-Prefix.pch";
 				INFOPLIST_FILE = "DZURLRoute/DZURLRoute-Info.plist";

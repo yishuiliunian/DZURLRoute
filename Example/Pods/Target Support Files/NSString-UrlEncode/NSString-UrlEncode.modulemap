@@ -1,0 +1,6 @@
+framework module NSString_UrlEncode {
+  umbrella header "NSString-UrlEncode-umbrella.h"
+
+  export *
+  module * { export * }
+}

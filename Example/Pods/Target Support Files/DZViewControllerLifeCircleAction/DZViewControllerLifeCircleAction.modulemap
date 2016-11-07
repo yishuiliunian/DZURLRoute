@@ -1,0 +1,6 @@
+framework module DZViewControllerLifeCircleAction {
+  umbrella header "DZViewControllerLifeCircleAction-umbrella.h"
+
+  export *
+  module * { export * }
+}
