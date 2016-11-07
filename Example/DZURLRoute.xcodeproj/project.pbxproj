@@ -22,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8186E170A20E177D58BBDDF6 /* Pods_DZURLRoute_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B6CDD859B465814DE383FD /* Pods_DZURLRoute_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E1411E881DD021DA00A2E546 /* DZRoutePatternDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = E1411E871DD021DA00A2E546 /* DZRoutePatternDefines.m */; };
+		E1411E8C1DD0231800A2E546 /* DZOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1411E8A1DD0231800A2E546 /* DZOtherViewController.m */; };
+		E1411E8D1DD0231800A2E546 /* DZOtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1411E8B1DD0231800A2E546 /* DZOtherViewController.xib */; };
 		EEF2CC815CA978A7931615DA /* Pods_DZURLRoute_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D680F1D84229F9127E2F5 /* Pods_DZURLRoute_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CEF666A5A3C208A6ED9AC930 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8CCFE0F719E9CC804C8B298 /* Pods-DZURLRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Example/Pods-DZURLRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1411E861DD021DA00A2E546 /* DZRoutePatternDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRoutePatternDefines.h; sourceTree = "<group>"; };
+		E1411E871DD021DA00A2E546 /* DZRoutePatternDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRoutePatternDefines.m; sourceTree = "<group>"; };
+		E1411E891DD0231800A2E546 /* DZOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZOtherViewController.h; sourceTree = "<group>"; };
+		E1411E8A1DD0231800A2E546 /* DZOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZOtherViewController.m; sourceTree = "<group>"; };
+		E1411E8B1DD0231800A2E546 /* DZOtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DZOtherViewController.xib; sourceTree = "<group>"; };
 		E71277A5361A0DBB768BECB2 /* Pods-DZURLRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZURLRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZURLRoute_Tests/Pods-DZURLRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0B6CDD859B465814DE383FD /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,8 +154,13 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DZViewController.h */,
 				6003F5A6195388D20070C39A /* DZViewController.m */,
+				E1411E891DD0231800A2E546 /* DZOtherViewController.h */,
+				E1411E8A1DD0231800A2E546 /* DZOtherViewController.m */,
+				E1411E8B1DD0231800A2E546 /* DZOtherViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E1411E861DD021DA00A2E546 /* DZRoutePatternDefines.h */,
+				E1411E871DD021DA00A2E546 /* DZRoutePatternDefines.m */,
 			);
 			name = "Example for DZURLRoute";
 			path = DZURLRoute;
@@ -244,7 +257,10 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DZ;
-				LastUpgradeCheck = 0720;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = yishuiliunian;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -280,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				E1411E8D1DD0231800A2E546 /* DZOtherViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,8 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
+				E1411E8C1DD0231800A2E546 /* DZOtherViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E1411E881DD021DA00A2E546 /* DZRoutePatternDefines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,14 +469,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -490,13 +514,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -520,9 +549,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZURLRoute/DZURLRoute-Prefix.pch";
 				INFOPLIST_FILE = "DZURLRoute/DZURLRoute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -537,9 +568,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZURLRoute/DZURLRoute-Prefix.pch";
 				INFOPLIST_FILE = "DZURLRoute/DZURLRoute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
