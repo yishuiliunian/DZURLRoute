@@ -11,7 +11,7 @@
 #import "DZURLRouteRequest.h"
 #import "DZURLRouteUtils.h"
 #import "DZUIStackLifeCircleAction.h"
-
+#import "DZURLRouteResponse.h"
 
 
 /**
@@ -40,7 +40,7 @@
  @param routePattern the route pattern to mate URL
  @param handler handle the request when a URL is mate the pattern
  */
-- (void) addRoutePattern:(NSString*)routePattern handler:(DZURLRoutePatternHandler)handler;
+- (void) addRoutePattern:(NSString*)routePattern handler:(DZURLRouteLocationResourceHandler)handler;
 
 
 /**
@@ -48,7 +48,7 @@
 
  @param handler the 404 handler
  */
-- (void) add404Handler:(DZURLRoutePatternHandler)handler;
+- (void) add404Handler:(DZURLRouteLocationResourceHandler)handler;
 
 
 /**
@@ -62,4 +62,7 @@
 
 
 - (BOOL) routeURL:(NSURL *)url context:(DZRouteRequestContext*)context;
+
+- (DZURLRouteResponse*) locationResource:(NSURL*)url context:(DZRouteResponseContext*)context;
+
 @end

@@ -14,7 +14,7 @@
 }
 @end
 @implementation DZURLRouteRecord
-- (instancetype) initWithPartern:(NSString*)parten handler:(DZURLRoutePatternHandler)handler
+- (instancetype) initWithPartern:(NSString*)parten handler:(DZURLRouteLocationResourceHandler)handler
 {
     self = [super init];
     if (!self) {

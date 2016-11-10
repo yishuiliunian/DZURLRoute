@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DZRouteResponseContext.h"
 @interface DZURLRouteResponse : NSObject
-@property (nonatomic, readonly, assign) BOOL success;
+@property (nonatomic, readonly, assign) DZRouteResponseContext*  context;
+
++ (DZURLRouteResponse*) successResponse;
++ (DZURLRouteResponse*) faildResponse;
 @end

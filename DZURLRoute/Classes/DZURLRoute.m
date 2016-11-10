@@ -36,7 +36,7 @@
     return self;
 }
 
-- (void) addRoutePattern:(NSString *)routePattern handler:(DZURLRoutePatternHandler)handler
+- (void) addRoutePattern:(NSString *)routePattern handler:(DZURLRouteLocationResourceHandler)handler
 {
     NSParameterAssert(routePattern);
     NSParameterAssert(handler);
@@ -63,6 +63,10 @@
     return nil;
 }
 
+- (BOOL) routeURL:(NSURL *)url
+{
+    [self routeURL:url context:nil];
+}
 
 - (BOOL) routeURL:(NSURL*)url context:(DZRouteRequestContext *)context
 {
@@ -73,11 +77,11 @@
         context = [DZRouteRequestContext new];
     }
     DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url context:context];
-    BOOL(^Hanlde404)(void) = ^ {
+    DZURLRouteResponse*(^Hanlde404)(void) = ^ {
         if (_404Record.handler) {
             return _404Record.handler(request);
         }
-        return NO;
+        return [DZURLRouteResponse faildResponse];
     };
     if (!url) {
         return Hanlde404();
