@@ -62,12 +62,17 @@
     }
     return nil;
 }
-- (BOOL) routeURL:(NSURL*)url
+
+
+- (BOOL) routeURL:(NSURL*)url context:(DZRouteRequestContext *)context
 {
 #ifdef DEBUG
     NSLog(@"[ROUTE] will route %@", url);
 #endif
-    DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url];
+    if (!context) {
+        context = [DZRouteRequestContext new];
+    }
+    DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url context:context];
     BOOL(^Hanlde404)(void) = ^ {
         if (_404Record.handler) {
             return _404Record.handler(request);

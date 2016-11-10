@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DZRouteRequestContext.h"
 
 /**
  when a pattern is mated. the lib will transform the url to DZURLRequest and pust some context in it. you can find some convinice method about url and some context valiable too.
@@ -46,21 +46,10 @@
 @property (nonatomic, strong, readonly) NSDictionary* paramters;
 
 
-/**
- the global ui stack
- */
-@property (nonatomic, strong, readonly) NSArray* viewControllerStack;
 
 
-/**
- the toppest instance of UIViewController, it is appearing. you can use it present some page.
- */
-@property (nonatomic, strong, readonly) UIViewController* topViewController;
+@property (nonatomic, strong, readonly) DZRouteRequestContext* context;
 
 
-/**
- the topppest navigationcontroller (if stack contains one). you can use it push some page.
- */
-@property (nonatomic, strong, readonly) UINavigationController* topNavigationController;
-- (instancetype) initWithURL:(NSURL*)url;
+- (instancetype) initWithURL:(NSURL*)url context:(DZRouteRequestContext*)context;
 @end

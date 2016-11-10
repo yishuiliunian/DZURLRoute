@@ -59,4 +59,7 @@
  @return if router can  hanle the url, it will be YES, otherwise NO.
  */
 - (BOOL) routeURL:(NSURL*)url;
+
+
+- (BOOL) routeURL:(NSURL *)url context:(DZRouteRequestContext*)context;
 @end

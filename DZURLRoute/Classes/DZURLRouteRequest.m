@@ -7,18 +7,18 @@
 //
 
 #import "DZURLRouteRequest.h"
-#import "DZUIStackLifeCircleAction.h"
 
 #import "DZURLRouteUtils.h"
 
 @implementation DZURLRouteRequest
-- (instancetype) initWithURL:(NSURL *)url
+- (instancetype) initWithURL:(NSURL *)url context:(DZRouteRequestContext *)context
 {
     self = [super init];
     if (!self) {
         return self;
     }
     _originURL = url;
+    _context = context;
     [self decodeURL];
     return self;
 }
@@ -35,28 +35,4 @@
     _paramters = DZURLRouteDecodeURLQueryParamters(query);
 }
 
-- (NSArray*) viewControllerStack
-{
-    return [DZUIShareStackInstance() viewControllerStack];
-}
-
-- (UIViewController*) topViewController
-{
-    return DZUIShareStackInstance().viewControllerStack.lastObject;
-}
-
-- (UINavigationController*) topNavigationController
-{
-    NSArray* vcs = [self viewControllerStack];
-    for (int i = (int)vcs.count -1; i >=0 ; i--) {
-        UIViewController* vc = vcs[i];
-        if ([vc isKindOfClass:[UINavigationController class]]) {
-            return vc;
-        }
-        if (vc.navigationController) {
-            return vc.navigationController;
-        }
-    }
-    return nil;
-}
 @end
