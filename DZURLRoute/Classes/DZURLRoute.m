@@ -26,6 +26,8 @@
     });
     return route;
 }
+
+
 - (instancetype) init
 {
     self = [super init];
@@ -70,6 +72,18 @@
 
 - (BOOL) routeURL:(NSURL*)url context:(DZRouteRequestContext *)context
 {
+    DZURLRouteResponse* response = [self locationResource:url context:context];
+    return response.result;
+}
+
+- (void) add404Handler:( DZURLRouteLocationResourceHandler )handler
+{
+    _404Record = [[DZURLRouteRecord alloc] initWithPartern:@"unknown-404://" handler:handler];
+}
+
+
+- (DZURLRouteResponse*) locationResource:(NSURL *)url context:(DZRouteResponseContext *)context
+{
 #ifdef DEBUG
     NSLog(@"[ROUTE] will route %@", url);
 #endif
@@ -96,10 +110,4 @@
     // do not delete the below line , it will handle the rest logic if the function growing
     return Hanlde404();
 }
-
-- (void) add404Handler:( DZURLRouteLocationResourceHandler )handler
-{
-    _404Record = [[DZURLRouteRecord alloc] initWithPartern:@"unkonw-404://" handler:handler];
-}
-
 @end

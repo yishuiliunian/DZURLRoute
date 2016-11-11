@@ -60,9 +60,25 @@
  */
 - (BOOL) routeURL:(NSURL*)url;
 
-
+/**
+ we use the stand URL to locate page. so you just post an url to start a page. like:
+ scheme://host/pwd?need=0&name=22 . don't worry about the start of page, i will post you the navigation and UI stack via the request paramter.
+ 
+ @param url the location of an page
+ @param context the context will be past to handler. it may be some object that can't transform to NSString
+ @return if router can  hanle the url, it will be YES, otherwise NO.
+ */
 - (BOOL) routeURL:(NSURL *)url context:(DZRouteRequestContext*)context;
 
+
+
+/**
+ Location a resource in app. it may be object, or page. We use the stand URL to location the resources.
+
+ @param url the location of resource
+ @param context the context will be past to handler. it may be some object that can't transform to NSString
+ @return an resposonse that contains all the key-value pair of result
+ */
 - (DZURLRouteResponse*) locationResource:(NSURL*)url context:(DZRouteResponseContext*)context;
 
 @end
