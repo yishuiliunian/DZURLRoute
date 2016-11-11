@@ -97,7 +97,7 @@
     return Hanlde404();
 }
 
-- (void) add404Handler:( DZURLRoutePatternHandler )handler
+- (void) add404Handler:( DZURLRouteLocationResourceHandler )handler
 {
     _404Record = [[DZURLRouteRecord alloc] initWithPartern:@"unkonw-404://" handler:handler];
 }
