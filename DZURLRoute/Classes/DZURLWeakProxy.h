@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DZURLWeakProxy : NSObject
+@interface DZURLWeakProxy : NSProxy
 /**
  The proxy target.
  */
