@@ -42,13 +42,13 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
 }
 - (void) __logUIStack:(UIViewController*)vc selector:(SEL)sel
 {
-    NSLog(@"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-    NSLog(@"%@ -- %@", vc, NSStringFromSelector(sel));
-    for (int i = (int)_uiStack.count - 1; i >= 0; i--) {
-        UIViewController* vc = [_uiStack pointerAtIndex:i];
-        NSLog(@"STACK [%d] is %@", i , vc);
-    }
-    NSLog(@"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+//    NSLog(@"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+//    NSLog(@"%@ -- %@", vc, NSStringFromSelector(sel));
+//    for (int i = (int)_uiStack.count - 1; i >= 0; i--) {
+//        UIViewController* vc = [_uiStack pointerAtIndex:i];
+//        NSLog(@"STACK [%d] is %@", i , vc);
+//    }
+//    NSLog(@"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 }
 - (void) hostController:(UIViewController *)vc viewDidAppear:(BOOL)animated
 {
