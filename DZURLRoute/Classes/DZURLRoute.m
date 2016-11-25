@@ -72,7 +72,7 @@
 
 - (BOOL) routeURL:(NSURL*)url context:(DZRouteRequestContext *)context
 {
-    DZURLRouteResponse* response = [self locationResource:url context:context];
+    DZURLRouteResponse* response = [self locationResource:url context:context redirect404:YES];
     return response.result;
 }
 
@@ -82,7 +82,7 @@
 }
 
 
-- (DZURLRouteResponse*) locationResource:(NSURL *)url context:(DZRouteResponseContext *)context
+- (DZURLRouteResponse*) locationResource:(NSURL *)url context:(DZRouteResponseContext *)context redirect404:(BOOL)redirect
 {
 #ifdef DEBUG
     NSLog(@"[ROUTE] will route %@", url);
@@ -92,7 +92,7 @@
     }
     DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url context:context];
     DZURLRouteResponse*(^Hanlde404)(void) = ^ {
-        if (_404Record.handler) {
+        if (_404Record.handler && redirect) {
             return _404Record.handler(request);
         }
         return [DZURLRouteResponse faildResponse];

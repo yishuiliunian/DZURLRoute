@@ -79,6 +79,6 @@
  @param context the context will be past to handler. it may be some object that can't transform to NSString
  @return an resposonse that contains all the key-value pair of result
  */
-- (DZURLRouteResponse*) locationResource:(NSURL*)url context:(DZRouteResponseContext*)context;
+- (DZURLRouteResponse*) locationResource:(NSURL *)url context:(DZRouteResponseContext *)context redirect404:(BOOL)redirect;
 
 @end
