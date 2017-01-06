@@ -21,7 +21,7 @@
 
  @param action the action that will be inserted in to the cache of UIViewController's instance.
  */
-- (void)registerLifeCircleAction:(DZViewControllerLifeCircleBaseAction *)action;
+- (DZViewControllerLifeCircleBaseAction* )registerLifeCircleAction:(DZViewControllerLifeCircleBaseAction *)action;
 
 
 /**

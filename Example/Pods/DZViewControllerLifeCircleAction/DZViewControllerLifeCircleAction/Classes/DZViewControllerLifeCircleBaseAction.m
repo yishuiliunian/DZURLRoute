@@ -25,7 +25,6 @@
 }
 - (BOOL) isEqual:(DZViewControllerLifeCircleBaseAction*)object
 {
-#warning it will circle ?
     if (self == object) {
         return YES;
     }

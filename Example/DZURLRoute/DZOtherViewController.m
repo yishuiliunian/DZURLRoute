@@ -15,12 +15,11 @@
 @implementation DZOtherViewController
 + (void) load
 {
-    [[DZURLRoute defaultRoute] addRoutePattern:kDZRoutePatternExmapleOtherController handler:^BOOL(DZURLRouteRequest *request) {
-        
-        
+    [[DZURLRoute defaultRoute] addRoutePattern:kDZRoutePatternExmapleOtherController handler:^DZURLRouteResponse*(DZURLRouteRequest *request) {
+    
         DZOtherViewController* otherVC = [DZOtherViewController new];
-        [request.topNavigationController pushViewController:otherVC animated:YES];
-        return YES;
+        [request.context.topNavigationController pushViewController:otherVC animated:YES];
+        return [DZURLRouteResponse successResponse];
     }];
 }
 - (void)viewDidLoad {

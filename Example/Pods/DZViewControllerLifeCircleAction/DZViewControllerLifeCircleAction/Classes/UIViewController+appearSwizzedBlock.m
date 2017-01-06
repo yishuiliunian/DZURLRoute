@@ -97,14 +97,19 @@ void DZVCRemoveGlobalAction(DZViewControllerLifeCircleBaseAction* action) {
 {
     objc_setAssociatedObject(self, DZViewAppearKey, array, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
-- (void)registerLifeCircleAction:(DZViewControllerLifeCircleBaseAction *)action
+- (DZViewControllerLifeCircleBaseAction* )registerLifeCircleAction:(DZViewControllerLifeCircleBaseAction *)action
 {
     NSMutableArray* array = [NSMutableArray arrayWithArray:[self lifeCircleActions]];
-    if ([array containsObject:action.identifier]) {
-        return;
+    if ([array containsObject:action]) {
+        for (DZViewControllerLifeCircleBaseAction* act in array) {
+            if ([action.identifier isEqualToString:act.identifier]) {
+                return act;
+            }
+        }
     }
     [array addObject:action];
     [self setLifeCircleActions:array];
+    return action;
 }
 
 - (void) removeLifeCircleAction:(DZViewControllerLifeCircleBaseAction *)action

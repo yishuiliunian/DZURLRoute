@@ -1,8 +1,8 @@
 PODS:
-  - DZURLRoute (0.1.0):
+  - DZURLRoute (0.2.1):
     - DZViewControllerLifeCircleAction
     - NSString-UrlEncode
-  - DZViewControllerLifeCircleAction (0.1.0)
+  - DZViewControllerLifeCircleAction (0.1.1)
   - NSString-UrlEncode (2.1.0)
 
 DEPENDENCIES:
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DZURLRoute: 41ea2f29240efa530b52d24b35e02363a0edfddf
-  DZViewControllerLifeCircleAction: ea2ee041ace05e198c7712a94240e1c376cd77ae
+  DZURLRoute: 982e9decf37c13e0857238eff9581b97b59bc3a6
+  DZViewControllerLifeCircleAction: e996b9585c659e533e93cd621ef32fab5f64f591
   NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
 
 PODFILE CHECKSUM: 7115fd9dda7192f8c51cb207459e2b33946539fe

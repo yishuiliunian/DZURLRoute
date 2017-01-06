@@ -16,13 +16,13 @@
 
 + (void) load
 {
-    [[DZURLRoute defaultRoute] addRoutePattern:kDZRoutePatternExampleViewController handler:^BOOL(DZURLRouteRequest *request) {
+    [[DZURLRoute defaultRoute] addRoutePattern:kDZRoutePatternExampleViewController handler:^DZURLRouteResponse*(DZURLRouteRequest *request) {
         
         NSLog(@"paramters is %@",request.paramters);
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         DZViewController *firstViewController = [storyboard instantiateViewControllerWithIdentifier:@"DZViewController"];
-        [request.topNavigationController pushViewController:firstViewController animated:YES];
-        return YES;
+        [request.context.topNavigationController pushViewController:firstViewController animated:YES];
+        return [DZURLRouteResponse successResponse];
     }];
 }
 - (void)viewDidLoad

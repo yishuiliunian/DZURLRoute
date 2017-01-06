@@ -14,11 +14,11 @@
 {
     // Override point for customization after application launch.
     
-    [[DZURLRoute defaultRoute] add404Handler:^BOOL(DZURLRouteRequest *request) {
+    [[DZURLRoute defaultRoute] add404Handler:^DZURLRouteResponse*(DZURLRouteRequest *request) {
         NSString* msg =  [NSString stringWithFormat:@"%@",request.originURL.absoluteString];
         UIAlertView* alerView = [[UIAlertView alloc] initWithTitle:@"不支持该URL跳转" message:msg delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
         [alerView show];
-        return YES;
+        return [DZURLRouteResponse successResponse];
     }];
     return YES;
 }
