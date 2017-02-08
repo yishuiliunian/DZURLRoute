@@ -9,6 +9,8 @@
 #import "DZUIStackLifeCircleAction.h"
 
 
+NSString* DZUIStackNotificationRootVCLoaded = @"DZUIStackNotificationRootVCLoaded";
+
 
 static DZUIStackLifeCircleAction* DZUIShareStack;
 
@@ -20,7 +22,6 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
 @interface DZUIStackLifeCircleAction ()
 {
     NSPointerArray* _uiStack;
-    
 }
 @end
 
@@ -37,7 +38,8 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
     if (!self) {
         return self;
     }
-    _uiStack = [NSPointerArray weakObjectsPointerArray];;
+    _uiStack = [NSPointerArray weakObjectsPointerArray];
+    _rootViewControllerLoaded = NO;
     return self;
 }
 - (void) __logUIStack:(UIViewController*)vc selector:(SEL)sel
@@ -57,6 +59,13 @@ DZUIStackLifeCircleAction* DZUIShareStackInstance()
         [_uiStack addPointer:(void*)vc];
     }
     [_uiStack compact];
+    if (!_rootViewControllerLoaded) {
+        if (_uiStack.count) {
+            _rootViewControllerLoaded = YES;
+            // notify the root view controller is loaded.
+            [[NSNotificationCenter defaultCenter] postNotificationName:DZUIStackNotificationRootVCLoaded object:nil];
+        }
+    }
 #ifdef DEBUG
     [self __logUIStack:vc selector:_cmd];
 #endif

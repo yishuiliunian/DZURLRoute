@@ -10,6 +10,12 @@
 #import "DZRoutePatternDefines.h"
 @implementation DZAppDelegate
 
+- (BOOL) application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[DZURLRoute defaultRoute] routePage:[NSURL URLWithString:[NSString stringWithFormat:@"%@",kDZRoutePatternExmapleOtherController]] context:nil];
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.

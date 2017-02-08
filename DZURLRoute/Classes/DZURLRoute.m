@@ -8,14 +8,23 @@
 
 #import "DZURLRoute.h"
 #import "DZURLRouteRequest.h"
+#import "DZURLDelayCommand.h"
+#import "DZUIStackLifeCircleAction.h"
 @interface DZURLRoute ()
 {
     NSMutableArray* _route;
     DZURLRouteRecord* _404Record;
+    NSMutableArray* _delayCommandQueue;
 }
 @end
 
 @implementation DZURLRoute
+
+- (void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 + (DZURLRoute*) defaultRoute
 {
     static DZURLRoute* route = nil;
@@ -35,7 +44,16 @@
         return self;
     }
     _route = [NSMutableArray new];
+    _delayCommandQueue = [NSMutableArray new];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleRootViewControllerLoaded:) name:DZUIStackNotificationRootVCLoaded object:nil];
     return self;
+}
+
+- (void) handleRootViewControllerLoaded:(NSNotification*)nc
+{
+    for (DZURLDelayCommand* cmd in _delayCommandQueue) {
+        [self routeURL:cmd.url context:cmd.context];
+    }
 }
 
 - (void) addRoutePattern:(NSString *)routePattern handler:(DZURLRouteLocationResourceHandler)handler
@@ -109,5 +127,15 @@
     }
     // do not delete the below line , it will handle the rest logic if the function growing
     return Hanlde404();
+}
+
+- (void) routePage:(NSURL *)url context:(DZRouteRequestContext *)context
+{
+    if (DZUIShareStackInstance().rootViewControllerLoaded) {
+        [self routeURL:url context:context];
+    } else {
+        DZURLDelayCommand* cmd = [[DZURLDelayCommand alloc] initWithURL:url context:context];
+        [_delayCommandQueue addObject:cmd];
+    }
 }
 @end

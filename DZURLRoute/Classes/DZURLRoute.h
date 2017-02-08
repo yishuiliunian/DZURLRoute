@@ -61,7 +61,7 @@
 - (BOOL) routeURL:(NSURL*)url;
 
 /**
- we use the stand URL to locate page. so you just post an url to start a page. like:
+ we use the stand URL to locate resources. so you just post an url to start a page. like:
  scheme://host/pwd?need=0&name=22 . don't worry about the start of page, i will post you the navigation and UI stack via the request paramter.
  
  @param url the location of an page
@@ -71,6 +71,14 @@
 - (BOOL) routeURL:(NSURL *)url context:(DZRouteRequestContext*)context;
 
 
+/**
+ we use the stand URL to locate. so you jusat post an url to start a page. Like:scheme://host/pwd?need=0&name=22 . don't worry about the start of page, i will provice for you the navigation and UI stack via the request context (default).
+ This function diffrent of ```routeURL:```. routeURL will route the url dirctly, but this function will be paused when your root ViewController disappeared. it is very usefully when another app wake up your app, and you will show some page.
+ @param url the location of an page
+ @param context the context will be past to handler. it may be some object that can't transform to NSString
+ @return if router can  hanle the url, it will be YES, otherwise NO.
+ */
+- (void) routePage:(NSURL*)url context:(DZRouteRequestContext*)context;
 
 /**
  Location a resource in app. it may be object, or page. We use the stand URL to location the resources.
@@ -80,5 +88,7 @@
  @return an resposonse that contains all the key-value pair of result
  */
 - (DZURLRouteResponse*) locationResource:(NSURL *)url context:(DZRouteResponseContext *)context redirect404:(BOOL)redirect;
+
+
 
 @end

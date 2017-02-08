@@ -9,6 +9,8 @@
 #import <DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.h>
 
 
+extern NSString* DZUIStackNotificationRootVCLoaded;
+
 /**
  this action inherit from an AOP base class named DZViewControllerLifeCircleBaseAction. You can check it at http://www.github/yishuiliunian/DZViewControllerLifeCircleAction .  responsibility of this class is that hold a stack for all  UIViewController that is appearing. It will register an instance of class when +load. and the instance is singloton. Useing it you can get the appearing view stack.
  */
@@ -18,6 +20,8 @@
  the appearing UIViewController stack. you can use it to find some UIViewController that meet the conditions.
  */
 @property (nonatomic, strong, readonly) NSArray* viewControllerStack;
+
+@property (nonatomic, assign, readonly) BOOL rootViewControllerLoaded;
 @end
 
 
