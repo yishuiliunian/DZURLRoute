@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
-
 /**
  So many business logic will process between UIViewController appearing and disappearing. But when you want to put thoese logics into every subclass of UIViewController.  The common way is to inheriting. But the obvious problem is UIViewControll what is a class in SDK. We do not have the code, and can not change it. So when subclass it. and make other inherit from this subclass.  and it go on. When have so may class to solve the common logic.  But, when the need changed. PM ask you to remove the logic. The bad dream come. Thinking if the logic is like toy bricks. If it is fine, put it in. If it is not fine, remove it off. So easy. When call it AOP(Aspect Oriented Program) usually.
      
@@ -16,6 +14,7 @@
  */
 @interface DZViewControllerLifeCircleBaseAction : NSObject
 
+@property  (nonatomic, weak, readonly) UIViewController * liveViewController;
 
 /**
  every action have unique identifier. 1to1 replationship.
@@ -59,5 +58,4 @@
  @param animated disappearing is need an animation, this will be YES, otherwise NO.
  */
 - (void) hostController:(UIViewController*)vc viewDidDisappear:(BOOL)animated;
-
 @end

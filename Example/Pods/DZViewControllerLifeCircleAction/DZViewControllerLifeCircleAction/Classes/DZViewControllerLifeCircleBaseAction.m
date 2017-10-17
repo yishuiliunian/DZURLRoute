@@ -36,7 +36,7 @@
 
 - (void) hostController:(UIViewController *)vc viewWillAppear:(BOOL)animated
 {
-    
+    _liveViewController = vc;
 }
 - (void) hostController:(UIViewController *)vc viewWillDisappear:(BOOL)animated
 {
@@ -44,10 +44,10 @@
 }
 - (void) hostController:(UIViewController *)vc viewDidAppear:(BOOL)animated
 {
-    
+
 }
 - (void) hostController:(UIViewController *)vc viewDidDisappear:(BOOL)animated
 {
-    
+    _liveViewController = nil;
 }
 @end

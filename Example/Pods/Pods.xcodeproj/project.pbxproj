@@ -7,181 +7,189 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C63CF8E7AA2A8753CFC11FE26C9885 /* UIViewController+appearSwizzedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B0BC93F752E41520275172E2EE92E /* UIViewController+appearSwizzedBlock.m */; };
+		0732BBA42C872D734F4F7A03014F7F74 /* DZURLRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1F2494F13020E28FB656193D9E6B61 /* DZURLRouteResponse.m */; };
 		073BA24FBECEBCD6CF55F1D9963EE58A /* Pods-DZURLRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D71DC52A398F6187D5C57D0A56467 /* Pods-DZURLRoute_Example-dummy.m */; };
-		07B3CCBD87BF42786DE265A5174DD518 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22742636735806262B85EE8161202A2F /* NSString+URLEncode.m */; };
-		0DD2674DE3C6ADC5F1455E91FB76EB47 /* DZRouteResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB2A03368E6FE410ADA02000D9DECF3 /* DZRouteResponseContext.m */; };
-		1D7C10E8E6419A013921D69B4DDC51F0 /* NSString_UrlEncode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */; };
-		25C94AFF7D9D1D03615D5E107F6C337F /* DZRouteRequestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 476468F137821F6A425265085C95F05C /* DZRouteRequestContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		315D4EB8BED3535BE732B158AD935B1C /* DZURLRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D18BD77291AE500E59377750ACD1118A /* DZURLRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215111CD0FC7911BAD9E690D7FA6D6E5 /* DZRouteRequestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 033B51E2D63E8AD60F7D6AE110F560B4 /* DZRouteRequestContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A4F657265B1C0647B90164937068525 /* DZURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA6D4DC867AF72D95C7978362DC92D /* DZURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3985330F57608F2AB31E925FEBE44953 /* Pods-DZURLRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 998871EF59AFA65756B959231C38B0DD /* Pods-DZURLRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C353F2623AB4A2058DEDDAB82D466D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
-		458AE4BA70E56F4DCE78810E27A0CC0F /* DZRouteResponseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 547F0B97B12C302A422375D6FE5D9D68 /* DZRouteResponseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4747AEE6CB393B1A8CD8F03B2918B3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
-		49F58649D6D4D5D2AA5EF95F7586B18B /* DZURLRouteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE1DFEEDD6CCA94C292E53EB3E0C98D /* DZURLRouteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51B23A98065D1EB3B866945B0988E00D /* DZViewControllerLifeCircleAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */; };
-		6246B87F0CEA8EA681CA6FA60CA89AFB /* DZVCOnceLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31BF59A115544106BBD80F2064E2AD /* DZVCOnceLifeCircleAction.m */; };
-		63D331D282A1DC29D6D5777662AC4FFC /* DZURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = DB790F21A2DA1BE81DD88DA87D01714C /* DZURLRoute.m */; };
-		65D813D340D76EDC8E2F07F56C2E1558 /* DZViewControllerLifeCircleAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E52B520BEF67D6CE2386F58C5A55CA2 /* DZViewControllerLifeCircleAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67BDB80EC5CBB78C80070DF766CB19D9 /* UIViewController+appearSwizzedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6539EF8112AE2626C75321C587792514 /* UIViewController+appearSwizzedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81578719F46F445E67550D8A1C3CB29C /* DZUIStackLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DC79B7FF117B484F800A94207F53F2C6 /* DZUIStackLifeCircleAction.m */; };
-		83F5983FD4E4C70453E7A8CF35C77679 /* DZURLRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD38C4092ABED38668CCCFFA3E5216D /* DZURLRouteResponse.m */; };
-		8720F192F1CC04C385C98B5DEB756502 /* DZRouteRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CECEE1F41C8C4A86F89F19E5220D3D91 /* DZRouteRequestContext.m */; };
-		8B904534EF72B2D636317760670CC527 /* DZURLWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB3BDC601BAB5E0DA49E0CA1ED84AE /* DZURLWeakProxy.m */; };
-		8E64970969CDB8AD2CBC5FD0E3911CEF /* DZURLRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D0F9C5DC35808278C8FEF8847E1C57 /* DZURLRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9014BA8D90A85247E933DA56F8B6EA78 /* DZURLRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51878C732BE2EA260DD5DBE2E58984F3 /* DZURLRouteRequest.m */; };
-		94DCC410063C617EE3DD0C8AB90EA983 /* NSString-UrlEncode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D4F4424DA34217C7ED0A334E555C39 /* NSString-UrlEncode-dummy.m */; };
-		9D1AE828FCA94661DA72F458EF81F68A /* DZURLRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93406A3094C37BA1AB1D5A2D720FDFA6 /* DZURLRoute-dummy.m */; };
-		9E1E34631C68CB655B4285A4C71F8F6C /* DZViewControllerLifeCircleAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C65B42F9D7C2C4AB89692DCB1D5DE7 /* DZViewControllerLifeCircleAction-dummy.m */; };
-		A8EE9ABC212DB5ACE2C3248A4FC72505 /* DZViewControllerLifeCircleBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBCC980FF3778B80B727B41262FF96E /* DZViewControllerLifeCircleBaseAction.m */; };
+		3D60287C9339BE25F50104FE570C5DAF /* NSString-UrlEncode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EC28182EF178D44C60652C3AAB9466 /* NSString-UrlEncode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC2D8B7DD8F5CD691A00EB2B00F9AEC /* NSString_UrlEncode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */; };
+		42CF2C810F785EBE5B992737D65D0907 /* DZViewControllerLifeCircleAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */; };
+		467836505819A956C222D56691B19817 /* DZUIStackLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE31959C6895371CCC54DB238CFD64 /* DZUIStackLifeCircleAction.m */; };
+		51BA94F6FD6E7F22A1803E2DEBC8E577 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22742636735806262B85EE8161202A2F /* NSString+URLEncode.m */; };
+		528964452260EF788BA199B263B61DD3 /* DZURLRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B56B82CA36ACECC3EB68E62353D3AD /* DZURLRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1DF886A34380796D42B1231DA60E60 /* DZURLDelayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 133A0A94B9ECD7B81D1A420335D013AE /* DZURLDelayCommand.m */; };
+		695804D0BCCC419827A270883BEAEB50 /* DZURLRouteRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E528CD7B77893026DE8FCA03DC57AB0 /* DZURLRouteRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7138880746E4698EDC052BBB6AB1495E /* DZRouteResponseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6D61B44244E2DCBCE3A0265D0EA416 /* DZRouteResponseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790E5ABFD2D4B060965C198CBA64F1A5 /* DZViewControllerLifeCircleAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C65B42F9D7C2C4AB89692DCB1D5DE7 /* DZViewControllerLifeCircleAction-dummy.m */; };
+		878D17968028390907D120D80BF4A101 /* DZURLRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93406A3094C37BA1AB1D5A2D720FDFA6 /* DZURLRoute-dummy.m */; };
+		881C9555335F6324113E87F6CD1EB9B3 /* DZURLRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D18BD77291AE500E59377750ACD1118A /* DZURLRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B1BC178403092883700D5F711264AE7 /* DZURLRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 098842623FDB5EBEC233C52DA3E24752 /* DZURLRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DC159A86A113549C3D1336560BB1F0 /* NSString-UrlEncode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D4F4424DA34217C7ED0A334E555C39 /* NSString-UrlEncode-dummy.m */; };
+		96934E6B1F5B2C331E21BC0E499903D0 /* DZViewControllerLifeCircleBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBCC980FF3778B80B727B41262FF96E /* DZViewControllerLifeCircleBaseAction.m */; };
+		982AF701F9B4529D3F31D1E10F34985F /* DZViewControllerLifeCircleAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E52B520BEF67D6CE2386F58C5A55CA2 /* DZViewControllerLifeCircleAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B95393C761F5F31E4AA3EE2A864D3D2 /* DZVCOnceLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = AF21513C5109BD5F8119633F5AC7568A /* DZVCOnceLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1403C207C0341959DCBE4756832A05C /* DZURLWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA94F8036404363600A5B4D631C11B5F /* DZURLWeakProxy.m */; };
 		A9101469BD8EF6E0001D39248D696352 /* Pods-DZURLRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADED53247396726BB2AEC797485230D6 /* Pods-DZURLRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF650554B715DFABBB6F07954ABB2F4 /* DZRouteRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2C8CF5F7F84ADE70F4DD541B611DE /* DZRouteRequestContext.m */; };
+		B233711D94BD4EB96FE0BD98759793F4 /* DZRouteResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 27577276B78CC9C0CBD8555ED5E2D462 /* DZRouteResponseContext.m */; };
+		B2A6D96E2139EB2AA0E64D325E22AF15 /* DZURLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 117F37231F95D3EBA77EECF083F1AF85 /* DZURLContext.m */; };
 		B508ED65D2B22FFEBC8F737CEB7004DB /* Pods-DZURLRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E78380B1720499196A0A2F56D7E06 /* Pods-DZURLRoute_Tests-dummy.m */; };
-		B5A0DDA18902609C411E686B22F71210 /* DZURLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F90D7144FEBC706765BF43C294623A11 /* DZURLContext.m */; };
-		B987DC900F77FF073937C4EB7A6D46D4 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B567C96D045628B338FEB0B8B0E64E9 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA139994E19F39E8EA36D118268B7A91 /* DZURLRouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB93E913554C846C7DF04AC90C43148 /* DZURLRouteUtils.m */; };
-		C473FCB67F00A5EB5ADF2156D467C5B2 /* DZVCOnceLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = AF21513C5109BD5F8119633F5AC7568A /* DZVCOnceLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C646F298DE2E556357B5D3CC40A40692 /* DZViewControllerLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6217E39C6B6FDB02157DCC74D0D6A066 /* DZViewControllerLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBECF1CFA06DF7A989CFD05917DA00A9 /* DZURLWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D92E4B5A47CD66B5DEC6E7C84DBCAD60 /* DZURLWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D301B1F476D0D8F03DFD9F2748531436 /* DZURLRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A4F1940DE1687135D8B77ABE912C1F /* DZURLRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3596B23C8CE7D1AAAAF3D6E00C2DA78 /* DZUIStackLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A44FFE4B6123BFAA06BE63C0F3C325A /* DZUIStackLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D98E3AF466F6104D388353E557025DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
-		DAC8FD639313FE57E98D508AB9A4A4E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
-		DB411384A9A4C223E68A9A150FDFBC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
-		E12BA0521E4B0F1C0007D49A /* DZURLDelayCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E12BA0501E4B0F1C0007D49A /* DZURLDelayCommand.h */; };
-		E12BA0531E4B0F1C0007D49A /* DZURLDelayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E12BA0511E4B0F1C0007D49A /* DZURLDelayCommand.m */; };
-		E31C6D4520C1B6DA370B60E0BB01A62E /* NSString-UrlEncode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EC28182EF178D44C60652C3AAB9466 /* NSString-UrlEncode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEF572BFACD1E32B7BA1098DB3CA2C0E /* DZURLRouteRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9C8BBB577F97C5BE104E1C62E4378F /* DZURLRouteRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EF22B837C92E06407E77457221CA15 /* DZViewControllerLifeCircleBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E0ADFC7153FF28BA354BB9E186607738 /* DZViewControllerLifeCircleBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8228426BC748DCDB766C02E890C3BE6 /* DZURLRouteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CA08DBCEFDC30FAD93E9DF4855FF8A11 /* DZURLRouteRecord.m */; };
-		FCC42CB67D1D4C79182C37FB4E9E6D6B /* DZURLRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C36486E4F0A62C12E0DF04735A95DC /* DZURLRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF0C779AF231EC6D2B395643D0678DB9 /* DZURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F84C2B50BFDD012B218927C7250BCD /* DZURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B600F9ACEC043AB7F8E5DF93702A6726 /* DZViewControllerLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6217E39C6B6FDB02157DCC74D0D6A066 /* DZViewControllerLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6879DEF512CF5D13D28424FB841C6B0 /* DZURLDelayCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4B87562AE310FC35CFB4BB34E2DDD3 /* DZURLDelayCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD96A30C5D4F78CC6F581BFF74BD0E7 /* DZURLRouteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA9D8CA08CD521CA96EE659135951B7 /* DZURLRouteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31A4734AE2AD77E34230810E33EC5F4 /* DZURLRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24371D145EB860666579FC88B655E8 /* DZURLRouteRequest.m */; };
+		C6293E8C1188A5741EF7CDF419703042 /* DZUIStackLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3F9DEA113624F4D41FC497E2D8BCB0 /* DZUIStackLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ACC63080F8422F9246FCCF8EE453B2 /* UIViewController+appearSwizzedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6539EF8112AE2626C75321C587792514 /* UIViewController+appearSwizzedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C838AC9F1B1E0C3C3DBF81030F57C3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */; };
+		CD52E57D1373252F4AC0838FC2240618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */; };
+		D085861B6ABE17FB101086D35B23D93D /* DZURLRouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D22CB3DC99C554720158898119EF21 /* DZURLRouteUtils.m */; };
+		D569B71E98BC38BF3116239FB2EFBFCA /* DZViewControllerLifeCircleBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E0ADFC7153FF28BA354BB9E186607738 /* DZViewControllerLifeCircleBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58E91688494A49E7A63028C640DB123 /* UIViewController+appearSwizzedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B0BC93F752E41520275172E2EE92E /* UIViewController+appearSwizzedBlock.m */; };
+		E25E41562E8778838B4FA2B10CAE3F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */; };
+		E26DC3C8A1CE582D0F3A62F5ECA912D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */; };
+		E5A4A959ACA88965E9E55F695731B50D /* DZVCOnceLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31BF59A115544106BBD80F2064E2AD /* DZVCOnceLifeCircleAction.m */; };
+		EE1F0864B2F0C3CBB2DA8BF5DC59BBDE /* DZURLRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0A751D829B752CAF5A5646EB5C9AF4 /* DZURLRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28B3AD5ABA51FBAF7389DFD637C5AB2 /* DZURLWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F4A8157C81AE20704AE8DF164DF47D /* DZURLWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F389AEE9B3CDD8CECD575B237677A104 /* DZURLRouteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2103BC9B3884A9154894E7C2BA5A32D /* DZURLRouteRecord.m */; };
+		F5DA68C6A8AE9444471434AE13272EE2 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B567C96D045628B338FEB0B8B0E64E9 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDCF15C839EE77DE43AB9017C9CBE5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */; };
+		FEAB8DB6524879667FAA210559B1D856 /* DZURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A22301AB940455A95134091116B031 /* DZURLRoute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01AF29036713544E2AC74ADA8A674DFB /* PBXContainerItemProxy */ = {
+		1EB93314BA52F0B37C07C44A19389C87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3DB2D9F75F2815AD2D51DCAE0242C43;
-			remoteInfo = "NSString-UrlEncode";
+			remoteGlobalIDString = 68C1A49EF0913DB85DE80E816AE6BAC2;
+			remoteInfo = DZViewControllerLifeCircleAction;
 		};
 		5C75EEE8010234E6B7EC5B00EEA27040 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3DB2D9F75F2815AD2D51DCAE0242C43;
+			remoteGlobalIDString = 20D9916359D00C35352E5E6258B24A99;
 			remoteInfo = "NSString-UrlEncode";
 		};
 		AA7EAE232C23D33F1A785955C9B0C09D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A24D3A66E3992AB679E034C4A81F3D1C;
+			remoteGlobalIDString = 68C1A49EF0913DB85DE80E816AE6BAC2;
 			remoteInfo = DZViewControllerLifeCircleAction;
+		};
+		C339D66266745607FC66B01C305EB311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D9916359D00C35352E5E6258B24A99;
+			remoteInfo = "NSString-UrlEncode";
 		};
 		C606754CC5AFE2A50944E7D3F8FB001E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 13581EB5D88FFD8F439B0F96BB4291DC;
+			remoteGlobalIDString = 17F2116CFE0E605631024A0EA5A07BB0;
 			remoteInfo = DZURLRoute;
-		};
-		D0B3C2B3B5CD3D1AE40B11200FA5217A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A24D3A66E3992AB679E034C4A81F3D1C;
-			remoteInfo = DZViewControllerLifeCircleAction;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09D0F9C5DC35808278C8FEF8847E1C57 /* DZURLRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRoute.h; sourceTree = "<group>"; };
+		033B51E2D63E8AD60F7D6AE110F560B4 /* DZRouteRequestContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZRouteRequestContext.h; sourceTree = "<group>"; };
+		05D22CB3DC99C554720158898119EF21 /* DZURLRouteUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteUtils.m; sourceTree = "<group>"; };
+		098842623FDB5EBEC233C52DA3E24752 /* DZURLRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRoute.h; sourceTree = "<group>"; };
+		0A4B87562AE310FC35CFB4BB34E2DDD3 /* DZURLDelayCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLDelayCommand.h; sourceTree = "<group>"; };
 		0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_UrlEncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17C91874FF13E725DA69D6E91D5F93C7 /* NSString-UrlEncode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-UrlEncode.modulemap"; sourceTree = "<group>"; };
+		117F37231F95D3EBA77EECF083F1AF85 /* DZURLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLContext.m; sourceTree = "<group>"; };
+		133A0A94B9ECD7B81D1A420335D013AE /* DZURLDelayCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLDelayCommand.m; sourceTree = "<group>"; };
+		17C91874FF13E725DA69D6E91D5F93C7 /* NSString-UrlEncode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-UrlEncode.modulemap"; sourceTree = "<group>"; };
 		1C2D71DC52A398F6187D5C57D0A56467 /* Pods-DZURLRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZURLRoute_Example-dummy.m"; sourceTree = "<group>"; };
 		1F7844A7FB9FBCF04394D45C9ABD199E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22742636735806262B85EE8161202A2F /* NSString+URLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		22B2C8CF5F7F84ADE70F4DD541B611DE /* DZRouteRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZRouteRequestContext.m; sourceTree = "<group>"; };
 		24D4F4424DA34217C7ED0A334E555C39 /* NSString-UrlEncode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-UrlEncode-dummy.m"; sourceTree = "<group>"; };
 		2691931BD1313E8C9969781DC7DAB962 /* Pods-DZURLRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Tests-resources.sh"; sourceTree = "<group>"; };
 		27299AFC4A05D4DB45246E79D60FE50E /* Pods-DZURLRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZURLRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		27577276B78CC9C0CBD8555ED5E2D462 /* DZRouteResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZRouteResponseContext.m; sourceTree = "<group>"; };
 		28F95C322A317E7F59A3C9D778FFAE1A /* DZViewControllerLifeCircleAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-prefix.pch"; sourceTree = "<group>"; };
-		2A44FFE4B6123BFAA06BE63C0F3C325A /* DZUIStackLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZUIStackLifeCircleAction.h; sourceTree = "<group>"; };
-		30E4B7993AC970B047E752EB76000F99 /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E4B7993AC970B047E752EB76000F99 /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZURLRoute_Example.framework; path = "Pods-DZURLRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362B6FCC99BC138FF9A2949FFB390F69 /* Pods-DZURLRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		37328C43C957C75FEC466007B9B65C11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F1DCD84F9768620D6A1CF04A65FF28 /* Pods-DZURLRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B93BA6DC59BE85AA039F531B699DCC3 /* DZViewControllerLifeCircleAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZViewControllerLifeCircleAction.xcconfig; sourceTree = "<group>"; };
 		3F31BF59A115544106BBD80F2064E2AD /* DZVCOnceLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZVCOnceLifeCircleAction.m; path = DZViewControllerLifeCircleAction/Classes/DZVCOnceLifeCircleAction.m; sourceTree = "<group>"; };
-		476468F137821F6A425265085C95F05C /* DZRouteRequestContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZRouteRequestContext.h; sourceTree = "<group>"; };
 		4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE31959C6895371CCC54DB238CFD64 /* DZUIStackLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZUIStackLifeCircleAction.m; sourceTree = "<group>"; };
 		4CA3C9BC37E255162D3EF7F09BDE37D1 /* Pods-DZURLRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		51878C732BE2EA260DD5DBE2E58984F3 /* DZURLRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteRequest.m; sourceTree = "<group>"; };
 		51FFA34BA3817C1B3EC331220A609B1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528B0BC93F752E41520275172E2EE92E /* UIViewController+appearSwizzedBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+appearSwizzedBlock.m"; path = "DZViewControllerLifeCircleAction/Classes/UIViewController+appearSwizzedBlock.m"; sourceTree = "<group>"; };
-		547F0B97B12C302A422375D6FE5D9D68 /* DZRouteResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZRouteResponseContext.h; sourceTree = "<group>"; };
-		56BB3BDC601BAB5E0DA49E0CA1ED84AE /* DZURLWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLWeakProxy.m; sourceTree = "<group>"; };
-		5AB93E913554C846C7DF04AC90C43148 /* DZURLRouteUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteUtils.m; sourceTree = "<group>"; };
+		5E528CD7B77893026DE8FCA03DC57AB0 /* DZURLRouteRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteRecord.h; sourceTree = "<group>"; };
 		5E52B520BEF67D6CE2386F58C5A55CA2 /* DZViewControllerLifeCircleAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-umbrella.h"; sourceTree = "<group>"; };
 		6217E39C6B6FDB02157DCC74D0D6A066 /* DZViewControllerLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZViewControllerLifeCircleAction.h; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleAction.h; sourceTree = "<group>"; };
 		64C65B42F9D7C2C4AB89692DCB1D5DE7 /* DZViewControllerLifeCircleAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZViewControllerLifeCircleAction-dummy.m"; sourceTree = "<group>"; };
 		6539EF8112AE2626C75321C587792514 /* UIViewController+appearSwizzedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+appearSwizzedBlock.h"; path = "DZViewControllerLifeCircleAction/Classes/UIViewController+appearSwizzedBlock.h"; sourceTree = "<group>"; };
 		6BAA349DC26417D0C67D868368E11733 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EF3F53C5D82677C242F01780F8A759A /* DZURLRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZURLRoute.modulemap; sourceTree = "<group>"; };
+		6C6D61B44244E2DCBCE3A0265D0EA416 /* DZRouteResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZRouteResponseContext.h; sourceTree = "<group>"; };
+		6EF3F53C5D82677C242F01780F8A759A /* DZURLRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZURLRoute.modulemap; sourceTree = "<group>"; };
 		6F5E78380B1720499196A0A2F56D7E06 /* Pods-DZURLRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZURLRoute_Tests-dummy.m"; sourceTree = "<group>"; };
 		70B98AB86F62FA6B2EEDB6D0E36A4279 /* Pods-DZURLRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71A4F1940DE1687135D8B77ABE912C1F /* DZURLRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteResponse.h; sourceTree = "<group>"; };
-		71AC6DD3D6DC795C62AD45FE882F6C79 /* Pods-DZURLRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZURLRoute_Example.modulemap"; sourceTree = "<group>"; };
+		71AC6DD3D6DC795C62AD45FE882F6C79 /* Pods-DZURLRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DZURLRoute_Example.modulemap"; sourceTree = "<group>"; };
+		72F4A8157C81AE20704AE8DF164DF47D /* DZURLWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLWeakProxy.h; sourceTree = "<group>"; };
 		79E1804D1337079126B58A2592D9A3A3 /* DZURLRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZURLRoute-prefix.pch"; sourceTree = "<group>"; };
+		7B0A751D829B752CAF5A5646EB5C9AF4 /* DZURLRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteRequest.h; sourceTree = "<group>"; };
 		7B567C96D045628B338FEB0B8B0E64E9 /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		85A22301AB940455A95134091116B031 /* DZURLRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRoute.m; sourceTree = "<group>"; };
 		892A00F66E16C9B0C6BE2A0AAB379B1E /* Pods-DZURLRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
-		89F84C2B50BFDD012B218927C7250BCD /* DZURLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLContext.h; sourceTree = "<group>"; };
 		8AC260DC5319AF54C8209CAAB363989C /* Pods-DZURLRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZURLRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8BE59E11C23B771D95F47720FCFD8AB3 /* NSString-UrlEncode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-prefix.pch"; sourceTree = "<group>"; };
 		93406A3094C37BA1AB1D5A2D720FDFA6 /* DZURLRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZURLRoute-dummy.m"; sourceTree = "<group>"; };
 		9361B0FB3FB20BA5EA7133B6CA2CE2BC /* Pods-DZURLRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZURLRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		998871EF59AFA65756B959231C38B0DD /* Pods-DZURLRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZURLRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9AD631ECCC3FA6DDB1D84555D1087C9E /* DZViewControllerLifeCircleAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZViewControllerLifeCircleAction.modulemap; sourceTree = "<group>"; };
+		9AD631ECCC3FA6DDB1D84555D1087C9E /* DZViewControllerLifeCircleAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZViewControllerLifeCircleAction.modulemap; sourceTree = "<group>"; };
 		9BFE93B49DCC18076598913AC9C42625 /* DZURLRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZURLRoute.xcconfig; sourceTree = "<group>"; };
+		9C3F9DEA113624F4D41FC497E2D8BCB0 /* DZUIStackLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZUIStackLifeCircleAction.h; sourceTree = "<group>"; };
 		ADED53247396726BB2AEC797485230D6 /* Pods-DZURLRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZURLRoute_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AF21513C5109BD5F8119633F5AC7568A /* DZVCOnceLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZVCOnceLifeCircleAction.h; path = DZViewControllerLifeCircleAction/Classes/DZVCOnceLifeCircleAction.h; sourceTree = "<group>"; };
 		B4EC28182EF178D44C60652C3AAB9466 /* NSString-UrlEncode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-umbrella.h"; sourceTree = "<group>"; };
-		BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_UrlEncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_UrlEncode.framework; path = "NSString-UrlEncode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9D8CA08CD521CA96EE659135951B7 /* DZURLRouteUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteUtils.h; sourceTree = "<group>"; };
 		BC167B49FC3BB4A61CD7F775B8FF9511 /* NSString-UrlEncode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-UrlEncode.xcconfig"; sourceTree = "<group>"; };
-		BDD38C4092ABED38668CCCFFA3E5216D /* DZURLRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteResponse.m; sourceTree = "<group>"; };
 		C8573C50E12CBFD1D30320A827E0361D /* Pods-DZURLRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Example-resources.sh"; sourceTree = "<group>"; };
-		CA08DBCEFDC30FAD93E9DF4855FF8A11 /* DZURLRouteRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteRecord.m; sourceTree = "<group>"; };
-		CBE1DFEEDD6CCA94C292E53EB3E0C98D /* DZURLRouteUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteUtils.h; sourceTree = "<group>"; };
-		CECEE1F41C8C4A86F89F19E5220D3D91 /* DZRouteRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZRouteRequestContext.m; sourceTree = "<group>"; };
+		CF1F2494F13020E28FB656193D9E6B61 /* DZURLRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteResponse.m; sourceTree = "<group>"; };
 		D18BD77291AE500E59377750ACD1118A /* DZURLRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZURLRoute-umbrella.h"; sourceTree = "<group>"; };
-		D92E4B5A47CD66B5DEC6E7C84DBCAD60 /* DZURLWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLWeakProxy.h; sourceTree = "<group>"; };
-		DB790F21A2DA1BE81DD88DA87D01714C /* DZURLRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRoute.m; sourceTree = "<group>"; };
+		DA94F8036404363600A5B4D631C11B5F /* DZURLWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLWeakProxy.m; sourceTree = "<group>"; };
 		DBBCC980FF3778B80B727B41262FF96E /* DZViewControllerLifeCircleBaseAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZViewControllerLifeCircleBaseAction.m; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleBaseAction.m; sourceTree = "<group>"; };
-		DC79B7FF117B484F800A94207F53F2C6 /* DZUIStackLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZUIStackLifeCircleAction.m; sourceTree = "<group>"; };
 		DC7ADDFC3FD5F341E5D3888CFD9AAA95 /* Pods-DZURLRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DEAD3BD40B8F1DA8B10804F5F80DCB68 /* Pods_DZURLRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAD3BD40B8F1DA8B10804F5F80DCB68 /* Pods_DZURLRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZURLRoute_Tests.framework; path = "Pods-DZURLRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24371D145EB860666579FC88B655E8 /* DZURLRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteRequest.m; sourceTree = "<group>"; };
 		E0ADFC7153FF28BA354BB9E186607738 /* DZViewControllerLifeCircleBaseAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZViewControllerLifeCircleBaseAction.h; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleBaseAction.h; sourceTree = "<group>"; };
-		E12BA0501E4B0F1C0007D49A /* DZURLDelayCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZURLDelayCommand.h; sourceTree = "<group>"; };
-		E12BA0511E4B0F1C0007D49A /* DZURLDelayCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZURLDelayCommand.m; sourceTree = "<group>"; };
+		E2103BC9B3884A9154894E7C2BA5A32D /* DZURLRouteRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLRouteRecord.m; sourceTree = "<group>"; };
 		E84088820F992CB1F17E6A195E9A1F0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E841D4BD8E52714B3059D6A6365881CC /* DZURLRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZURLRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9C8BBB577F97C5BE104E1C62E4378F /* DZURLRouteRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteRecord.h; sourceTree = "<group>"; };
+		E841D4BD8E52714B3059D6A6365881CC /* DZURLRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZURLRoute.framework; path = DZURLRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B56B82CA36ACECC3EB68E62353D3AD /* DZURLRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteResponse.h; sourceTree = "<group>"; };
 		EB83DD4681CB77C8CB535E1733ACA02A /* Pods-DZURLRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZURLRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EBB2A03368E6FE410ADA02000D9DECF3 /* DZRouteResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZRouteResponseContext.m; sourceTree = "<group>"; };
-		EEB2C22B76681ECD71643422CB52DDBE /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2C36486E4F0A62C12E0DF04735A95DC /* DZURLRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLRouteRequest.h; sourceTree = "<group>"; };
-		F90D7144FEBC706765BF43C294623A11 /* DZURLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZURLContext.m; sourceTree = "<group>"; };
-		FA7EE655FD8652E40A4C5DF0C2BD4CC6 /* Pods-DZURLRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZURLRoute_Tests.modulemap"; sourceTree = "<group>"; };
+		EEB2C22B76681ECD71643422CB52DDBE /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZViewControllerLifeCircleAction.framework; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7EE655FD8652E40A4C5DF0C2BD4CC6 /* Pods-DZURLRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DZURLRoute_Tests.modulemap"; sourceTree = "<group>"; };
+		FBAA6D4DC867AF72D95C7978362DC92D /* DZURLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZURLContext.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19FAC2029B9F8E9B3C45E61AACC3EECE /* Frameworks */ = {
+		1F6D33ECC66AF9B76EC949474A47FD88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4747AEE6CB393B1A8CD8F03B2918B3D4 /* Foundation.framework in Frameworks */,
+				CD52E57D1373252F4AC0838FC2240618 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B316390ED9CB5CD74E6E9A0A4377A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E41562E8778838B4FA2B10CAE3F22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,17 +197,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB411384A9A4C223E68A9A150FDFBC80 /* Foundation.framework in Frameworks */,
+				C838AC9F1B1E0C3C3DBF81030F57C3C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F80FBD0BBE8113660A3AB7B84EF3193 /* Frameworks */ = {
+		6EB0724AB333951ACC4417D55E8761C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B23A98065D1EB3B866945B0988E00D /* DZViewControllerLifeCircleAction.framework in Frameworks */,
-				D98E3AF466F6104D388353E557025DDE /* Foundation.framework in Frameworks */,
-				1D7C10E8E6419A013921D69B4DDC51F0 /* NSString_UrlEncode.framework in Frameworks */,
+				42CF2C810F785EBE5B992737D65D0907 /* DZViewControllerLifeCircleAction.framework in Frameworks */,
+				E26DC3C8A1CE582D0F3A62F5ECA912D6 /* Foundation.framework in Frameworks */,
+				3EC2D8B7DD8F5CD691A00EB2B00F9AEC /* NSString_UrlEncode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,15 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC8FD639313FE57E98D508AB9A4A4E2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C26B3D8193608937C7F65AE268C10B5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C353F2623AB4A2058DEDDAB82D466D0 /* Foundation.framework in Frameworks */,
+				FDCF15C839EE77DE43AB9017C9CBE5C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,41 +240,51 @@
 			path = "Target Support Files/Pods-DZURLRoute_Tests";
 			sourceTree = "<group>";
 		};
-		0E89794CC012572BDC2285B3F54D4541 /* iOS */ = {
+		048B91F9D0F86098C64A4741848CB8CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */,
+				033B51E2D63E8AD60F7D6AE110F560B4 /* DZRouteRequestContext.h */,
+				22B2C8CF5F7F84ADE70F4DD541B611DE /* DZRouteRequestContext.m */,
+				6C6D61B44244E2DCBCE3A0265D0EA416 /* DZRouteResponseContext.h */,
+				27577276B78CC9C0CBD8555ED5E2D462 /* DZRouteResponseContext.m */,
+				9C3F9DEA113624F4D41FC497E2D8BCB0 /* DZUIStackLifeCircleAction.h */,
+				4BCE31959C6895371CCC54DB238CFD64 /* DZUIStackLifeCircleAction.m */,
+				FBAA6D4DC867AF72D95C7978362DC92D /* DZURLContext.h */,
+				117F37231F95D3EBA77EECF083F1AF85 /* DZURLContext.m */,
+				0A4B87562AE310FC35CFB4BB34E2DDD3 /* DZURLDelayCommand.h */,
+				133A0A94B9ECD7B81D1A420335D013AE /* DZURLDelayCommand.m */,
+				098842623FDB5EBEC233C52DA3E24752 /* DZURLRoute.h */,
+				85A22301AB940455A95134091116B031 /* DZURLRoute.m */,
+				5E528CD7B77893026DE8FCA03DC57AB0 /* DZURLRouteRecord.h */,
+				E2103BC9B3884A9154894E7C2BA5A32D /* DZURLRouteRecord.m */,
+				7B0A751D829B752CAF5A5646EB5C9AF4 /* DZURLRouteRequest.h */,
+				DF24371D145EB860666579FC88B655E8 /* DZURLRouteRequest.m */,
+				E8B56B82CA36ACECC3EB68E62353D3AD /* DZURLRouteResponse.h */,
+				CF1F2494F13020E28FB656193D9E6B61 /* DZURLRouteResponse.m */,
+				BAA9D8CA08CD521CA96EE659135951B7 /* DZURLRouteUtils.h */,
+				05D22CB3DC99C554720158898119EF21 /* DZURLRouteUtils.m */,
+				72F4A8157C81AE20704AE8DF164DF47D /* DZURLWeakProxy.h */,
+				DA94F8036404363600A5B4D631C11B5F /* DZURLWeakProxy.m */,
 			);
-			name = iOS;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		4AD24ABD6DD08EC74481C4B84ED46870 /* Classes */ = {
+		0CFD0282ED875136B06D86D26A0B0044 /* DZURLRoute */ = {
 			isa = PBXGroup;
 			children = (
-				476468F137821F6A425265085C95F05C /* DZRouteRequestContext.h */,
-				CECEE1F41C8C4A86F89F19E5220D3D91 /* DZRouteRequestContext.m */,
-				547F0B97B12C302A422375D6FE5D9D68 /* DZRouteResponseContext.h */,
-				EBB2A03368E6FE410ADA02000D9DECF3 /* DZRouteResponseContext.m */,
-				2A44FFE4B6123BFAA06BE63C0F3C325A /* DZUIStackLifeCircleAction.h */,
-				DC79B7FF117B484F800A94207F53F2C6 /* DZUIStackLifeCircleAction.m */,
-				89F84C2B50BFDD012B218927C7250BCD /* DZURLContext.h */,
-				F90D7144FEBC706765BF43C294623A11 /* DZURLContext.m */,
-				09D0F9C5DC35808278C8FEF8847E1C57 /* DZURLRoute.h */,
-				DB790F21A2DA1BE81DD88DA87D01714C /* DZURLRoute.m */,
-				EA9C8BBB577F97C5BE104E1C62E4378F /* DZURLRouteRecord.h */,
-				CA08DBCEFDC30FAD93E9DF4855FF8A11 /* DZURLRouteRecord.m */,
-				F2C36486E4F0A62C12E0DF04735A95DC /* DZURLRouteRequest.h */,
-				51878C732BE2EA260DD5DBE2E58984F3 /* DZURLRouteRequest.m */,
-				71A4F1940DE1687135D8B77ABE912C1F /* DZURLRouteResponse.h */,
-				BDD38C4092ABED38668CCCFFA3E5216D /* DZURLRouteResponse.m */,
-				CBE1DFEEDD6CCA94C292E53EB3E0C98D /* DZURLRouteUtils.h */,
-				5AB93E913554C846C7DF04AC90C43148 /* DZURLRouteUtils.m */,
-				D92E4B5A47CD66B5DEC6E7C84DBCAD60 /* DZURLWeakProxy.h */,
-				56BB3BDC601BAB5E0DA49E0CA1ED84AE /* DZURLWeakProxy.m */,
-				E12BA0501E4B0F1C0007D49A /* DZURLDelayCommand.h */,
-				E12BA0511E4B0F1C0007D49A /* DZURLDelayCommand.m */,
+				048B91F9D0F86098C64A4741848CB8CC /* Classes */,
 			);
-			path = Classes;
+			name = DZURLRoute;
+			path = DZURLRoute;
+			sourceTree = "<group>";
+		};
+		200112C3C625F0385ACD683EEFB2282A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF1391677C31DA4A1A0D94A21A2EE6B7 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4C4BC40923CCEF7C9C976DCCDF4C1B1B /* Support Files */ = {
@@ -314,7 +324,7 @@
 			children = (
 				4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */,
 				0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */,
-				0E89794CC012572BDC2285B3F54D4541 /* iOS */,
+				200112C3C625F0385ACD683EEFB2282A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -338,13 +348,14 @@
 				22742636735806262B85EE8161202A2F /* NSString+URLEncode.m */,
 				F3A96D4EBB56A220490386339F37855F /* Support Files */,
 			);
+			name = "NSString-UrlEncode";
 			path = "NSString-UrlEncode";
 			sourceTree = "<group>";
 		};
 		62CF9B3DDDA229704194BCB8784F6657 /* DZURLRoute */ = {
 			isa = PBXGroup;
 			children = (
-				ED56FF7E22672E350A12CB0D7EFA5F46 /* DZURLRoute */,
+				0CFD0282ED875136B06D86D26A0B0044 /* DZURLRoute */,
 				4C4BC40923CCEF7C9C976DCCDF4C1B1B /* Support Files */,
 			);
 			name = DZURLRoute;
@@ -401,15 +412,8 @@
 				528B0BC93F752E41520275172E2EE92E /* UIViewController+appearSwizzedBlock.m */,
 				F2A7F354DAA2501FD512D67721E7D158 /* Support Files */,
 			);
+			name = DZViewControllerLifeCircleAction;
 			path = DZViewControllerLifeCircleAction;
-			sourceTree = "<group>";
-		};
-		ED56FF7E22672E350A12CB0D7EFA5F46 /* DZURLRoute */ = {
-			isa = PBXGroup;
-			children = (
-				4AD24ABD6DD08EC74481C4B84ED46870 /* Classes */,
-			);
-			path = DZURLRoute;
 			sourceTree = "<group>";
 		};
 		F2A7F354DAA2501FD512D67721E7D158 /* Support Files */ = {
@@ -443,39 +447,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01DCCC43595D97E1A67EA2907D3E0503 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25C94AFF7D9D1D03615D5E107F6C337F /* DZRouteRequestContext.h in Headers */,
-				458AE4BA70E56F4DCE78810E27A0CC0F /* DZRouteResponseContext.h in Headers */,
-				D3596B23C8CE7D1AAAAF3D6E00C2DA78 /* DZUIStackLifeCircleAction.h in Headers */,
-				FF0C779AF231EC6D2B395643D0678DB9 /* DZURLContext.h in Headers */,
-				E12BA0521E4B0F1C0007D49A /* DZURLDelayCommand.h in Headers */,
-				315D4EB8BED3535BE732B158AD935B1C /* DZURLRoute-umbrella.h in Headers */,
-				8E64970969CDB8AD2CBC5FD0E3911CEF /* DZURLRoute.h in Headers */,
-				EEF572BFACD1E32B7BA1098DB3CA2C0E /* DZURLRouteRecord.h in Headers */,
-				FCC42CB67D1D4C79182C37FB4E9E6D6B /* DZURLRouteRequest.h in Headers */,
-				D301B1F476D0D8F03DFD9F2748531436 /* DZURLRouteResponse.h in Headers */,
-				49F58649D6D4D5D2AA5EF95F7586B18B /* DZURLRouteUtils.h in Headers */,
-				CBECF1CFA06DF7A989CFD05917DA00A9 /* DZURLWeakProxy.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		164ABC08D2D8E8EFCC2E782CDEE9D051 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B987DC900F77FF073937C4EB7A6D46D4 /* NSString+URLEncode.h in Headers */,
-				E31C6D4520C1B6DA370B60E0BB01A62E /* NSString-UrlEncode-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1779C6385DE7876C27B41D4D46A9CE76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3985330F57608F2AB31E925FEBE44953 /* Pods-DZURLRoute_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497AC3BC8C78E947DA97ACF7A6E0D20A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DA68C6A8AE9444471434AE13272EE2 /* NSString+URLEncode.h in Headers */,
+				3D60287C9339BE25F50104FE570C5DAF /* NSString-UrlEncode-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,38 +472,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CABCC0554655561C59A99F7A0EFFE5B8 /* Headers */ = {
+		7AD3942D7CD374EDA805EDBA366ADA0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C473FCB67F00A5EB5ADF2156D467C5B2 /* DZVCOnceLifeCircleAction.h in Headers */,
-				65D813D340D76EDC8E2F07F56C2E1558 /* DZViewControllerLifeCircleAction-umbrella.h in Headers */,
-				C646F298DE2E556357B5D3CC40A40692 /* DZViewControllerLifeCircleAction.h in Headers */,
-				F4EF22B837C92E06407E77457221CA15 /* DZViewControllerLifeCircleBaseAction.h in Headers */,
-				67BDB80EC5CBB78C80070DF766CB19D9 /* UIViewController+appearSwizzedBlock.h in Headers */,
+				215111CD0FC7911BAD9E690D7FA6D6E5 /* DZRouteRequestContext.h in Headers */,
+				7138880746E4698EDC052BBB6AB1495E /* DZRouteResponseContext.h in Headers */,
+				C6293E8C1188A5741EF7CDF419703042 /* DZUIStackLifeCircleAction.h in Headers */,
+				2A4F657265B1C0647B90164937068525 /* DZURLContext.h in Headers */,
+				B6879DEF512CF5D13D28424FB841C6B0 /* DZURLDelayCommand.h in Headers */,
+				881C9555335F6324113E87F6CD1EB9B3 /* DZURLRoute-umbrella.h in Headers */,
+				8B1BC178403092883700D5F711264AE7 /* DZURLRoute.h in Headers */,
+				695804D0BCCC419827A270883BEAEB50 /* DZURLRouteRecord.h in Headers */,
+				EE1F0864B2F0C3CBB2DA8BF5DC59BBDE /* DZURLRouteRequest.h in Headers */,
+				528964452260EF788BA199B263B61DD3 /* DZURLRouteResponse.h in Headers */,
+				BAD96A30C5D4F78CC6F581BFF74BD0E7 /* DZURLRouteUtils.h in Headers */,
+				F28B3AD5ABA51FBAF7389DFD637C5AB2 /* DZURLWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4671E7804D65CBDE20B756A434285CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B95393C761F5F31E4AA3EE2A864D3D2 /* DZVCOnceLifeCircleAction.h in Headers */,
+				982AF701F9B4529D3F31D1E10F34985F /* DZViewControllerLifeCircleAction-umbrella.h in Headers */,
+				B600F9ACEC043AB7F8E5DF93702A6726 /* DZViewControllerLifeCircleAction.h in Headers */,
+				D569B71E98BC38BF3116239FB2EFBFCA /* DZViewControllerLifeCircleBaseAction.h in Headers */,
+				C7ACC63080F8422F9246FCCF8EE453B2 /* UIViewController+appearSwizzedBlock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */ = {
+		17F2116CFE0E605631024A0EA5A07BB0 /* DZURLRoute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA009757C218A6D7E917DBE770CD1B57 /* Build configuration list for PBXNativeTarget "DZURLRoute" */;
+			buildConfigurationList = 33029A296E3CF4C736FFE2ACB20B8378 /* Build configuration list for PBXNativeTarget "DZURLRoute" */;
 			buildPhases = (
-				ECFA3A5C39D7E86DA07AC44CFCB9529C /* Sources */,
-				6F80FBD0BBE8113660A3AB7B84EF3193 /* Frameworks */,
-				01DCCC43595D97E1A67EA2907D3E0503 /* Headers */,
+				57B000E6C36D7C4253151A0E2CE3AB87 /* Sources */,
+				6EB0724AB333951ACC4417D55E8761C6 /* Frameworks */,
+				7AD3942D7CD374EDA805EDBA366ADA0A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D72562E1F3DA8A8619EED8CB7B9BFD96 /* PBXTargetDependency */,
-				AADEC04D308C0C2C03D2EF8EDA15D861 /* PBXTargetDependency */,
+				1285F8B6EC883D3C4ED9BD912F59697E /* PBXTargetDependency */,
+				5F41F618441EB4E5C753D2FC50E3929E /* PBXTargetDependency */,
 			);
 			name = DZURLRoute;
 			productName = DZURLRoute;
 			productReference = E841D4BD8E52714B3059D6A6365881CC /* DZURLRoute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20D9916359D00C35352E5E6258B24A99 /* NSString-UrlEncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602CE974275C555C9E39FD488AE5F8C /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */;
+			buildPhases = (
+				DC7A22D64B0D6A57B52CC1E4F713E881 /* Sources */,
+				2B316390ED9CB5CD74E6E9A0A4377A1E /* Frameworks */,
+				497AC3BC8C78E947DA97ACF7A6E0D20A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString-UrlEncode";
+			productName = "NSString-UrlEncode";
+			productReference = BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		52FEAF1F77471555AC11F4B533BAE76A /* Pods-DZURLRoute_Tests */ = {
@@ -538,13 +559,13 @@
 			productReference = DEAD3BD40B8F1DA8B10804F5F80DCB68 /* Pods_DZURLRoute_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A24D3A66E3992AB679E034C4A81F3D1C /* DZViewControllerLifeCircleAction */ = {
+		68C1A49EF0913DB85DE80E816AE6BAC2 /* DZViewControllerLifeCircleAction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0F86506061B87BA3A675EC3CFCD705 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */;
+			buildConfigurationList = 265A921C7AC054E77365463913F11B6F /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */;
 			buildPhases = (
-				62149696E48B9F66833F5F9C7A4A71E2 /* Sources */,
-				C26B3D8193608937C7F65AE268C10B5C /* Frameworks */,
-				CABCC0554655561C59A99F7A0EFFE5B8 /* Headers */,
+				974C34CF17D423444BF85CD604D7388A /* Sources */,
+				1F6D33ECC66AF9B76EC949474A47FD88 /* Frameworks */,
+				F4671E7804D65CBDE20B756A434285CE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -553,23 +574,6 @@
 			name = DZViewControllerLifeCircleAction;
 			productName = DZViewControllerLifeCircleAction;
 			productReference = EEB2C22B76681ECD71643422CB52DDBE /* DZViewControllerLifeCircleAction.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F7AC9D737DC704C65D4792DB8AB1EAC /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */;
-			buildPhases = (
-				34915D033D2A0164F1B75F2CA1E3C982 /* Sources */,
-				19FAC2029B9F8E9B3C45E61AACC3EECE /* Frameworks */,
-				164ABC08D2D8E8EFCC2E782CDEE9D051 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NSString-UrlEncode";
-			productName = "NSString-UrlEncode";
-			productReference = BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE81D0E6822130B3F44F06960B03CE23 /* Pods-DZURLRoute_Example */ = {
@@ -598,7 +602,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -613,9 +617,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */,
-				A24D3A66E3992AB679E034C4A81F3D1C /* DZViewControllerLifeCircleAction */,
-				D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */,
+				17F2116CFE0E605631024A0EA5A07BB0 /* DZURLRoute */,
+				68C1A49EF0913DB85DE80E816AE6BAC2 /* DZViewControllerLifeCircleAction */,
+				20D9916359D00C35352E5E6258B24A99 /* NSString-UrlEncode */,
 				EE81D0E6822130B3F44F06960B03CE23 /* Pods-DZURLRoute_Example */,
 				52FEAF1F77471555AC11F4B533BAE76A /* Pods-DZURLRoute_Tests */,
 			);
@@ -623,15 +627,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34915D033D2A0164F1B75F2CA1E3C982 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07B3CCBD87BF42786DE265A5174DD518 /* NSString+URLEncode.m in Sources */,
-				94DCC410063C617EE3DD0C8AB90EA983 /* NSString-UrlEncode-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		349EE58607083F4B2E7B4569793EA2F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -640,14 +635,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62149696E48B9F66833F5F9C7A4A71E2 /* Sources */ = {
+		57B000E6C36D7C4253151A0E2CE3AB87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6246B87F0CEA8EA681CA6FA60CA89AFB /* DZVCOnceLifeCircleAction.m in Sources */,
-				9E1E34631C68CB655B4285A4C71F8F6C /* DZViewControllerLifeCircleAction-dummy.m in Sources */,
-				A8EE9ABC212DB5ACE2C3248A4FC72505 /* DZViewControllerLifeCircleBaseAction.m in Sources */,
-				00C63CF8E7AA2A8753CFC11FE26C9885 /* UIViewController+appearSwizzedBlock.m in Sources */,
+				AEF650554B715DFABBB6F07954ABB2F4 /* DZRouteRequestContext.m in Sources */,
+				B233711D94BD4EB96FE0BD98759793F4 /* DZRouteResponseContext.m in Sources */,
+				467836505819A956C222D56691B19817 /* DZUIStackLifeCircleAction.m in Sources */,
+				B2A6D96E2139EB2AA0E64D325E22AF15 /* DZURLContext.m in Sources */,
+				5A1DF886A34380796D42B1231DA60E60 /* DZURLDelayCommand.m in Sources */,
+				878D17968028390907D120D80BF4A101 /* DZURLRoute-dummy.m in Sources */,
+				FEAB8DB6524879667FAA210559B1D856 /* DZURLRoute.m in Sources */,
+				F389AEE9B3CDD8CECD575B237677A104 /* DZURLRouteRecord.m in Sources */,
+				C31A4734AE2AD77E34230810E33EC5F4 /* DZURLRouteRequest.m in Sources */,
+				0732BBA42C872D734F4F7A03014F7F74 /* DZURLRouteResponse.m in Sources */,
+				D085861B6ABE17FB101086D35B23D93D /* DZURLRouteUtils.m in Sources */,
+				A1403C207C0341959DCBE4756832A05C /* DZURLWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C34CF17D423444BF85CD604D7388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A4A959ACA88965E9E55F695731B50D /* DZVCOnceLifeCircleAction.m in Sources */,
+				790E5ABFD2D4B060965C198CBA64F1A5 /* DZViewControllerLifeCircleAction-dummy.m in Sources */,
+				96934E6B1F5B2C331E21BC0E499903D0 /* DZViewControllerLifeCircleBaseAction.m in Sources */,
+				D58E91688494A49E7A63028C640DB123 /* UIViewController+appearSwizzedBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,65 +673,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECFA3A5C39D7E86DA07AC44CFCB9529C /* Sources */ = {
+		DC7A22D64B0D6A57B52CC1E4F713E881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8720F192F1CC04C385C98B5DEB756502 /* DZRouteRequestContext.m in Sources */,
-				E12BA0531E4B0F1C0007D49A /* DZURLDelayCommand.m in Sources */,
-				0DD2674DE3C6ADC5F1455E91FB76EB47 /* DZRouteResponseContext.m in Sources */,
-				81578719F46F445E67550D8A1C3CB29C /* DZUIStackLifeCircleAction.m in Sources */,
-				B5A0DDA18902609C411E686B22F71210 /* DZURLContext.m in Sources */,
-				9D1AE828FCA94661DA72F458EF81F68A /* DZURLRoute-dummy.m in Sources */,
-				63D331D282A1DC29D6D5777662AC4FFC /* DZURLRoute.m in Sources */,
-				F8228426BC748DCDB766C02E890C3BE6 /* DZURLRouteRecord.m in Sources */,
-				9014BA8D90A85247E933DA56F8B6EA78 /* DZURLRouteRequest.m in Sources */,
-				83F5983FD4E4C70453E7A8CF35C77679 /* DZURLRouteResponse.m in Sources */,
-				BA139994E19F39E8EA36D118268B7A91 /* DZURLRouteUtils.m in Sources */,
-				8B904534EF72B2D636317760670CC527 /* DZURLWeakProxy.m in Sources */,
+				51BA94F6FD6E7F22A1803E2DEBC8E577 /* NSString+URLEncode.m in Sources */,
+				94DC159A86A113549C3D1336560BB1F0 /* NSString-UrlEncode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1285F8B6EC883D3C4ED9BD912F59697E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZViewControllerLifeCircleAction;
+			target = 68C1A49EF0913DB85DE80E816AE6BAC2 /* DZViewControllerLifeCircleAction */;
+			targetProxy = 1EB93314BA52F0B37C07C44A19389C87 /* PBXContainerItemProxy */;
+		};
 		354709F8E31584EF1068D1865A16FDB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSString-UrlEncode";
-			target = D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */;
+			target = 20D9916359D00C35352E5E6258B24A99 /* NSString-UrlEncode */;
 			targetProxy = 5C75EEE8010234E6B7EC5B00EEA27040 /* PBXContainerItemProxy */;
+		};
+		5F41F618441EB4E5C753D2FC50E3929E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString-UrlEncode";
+			target = 20D9916359D00C35352E5E6258B24A99 /* NSString-UrlEncode */;
+			targetProxy = C339D66266745607FC66B01C305EB311 /* PBXContainerItemProxy */;
 		};
 		A85A8A73E6D9F316098F0F15C7252A77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZURLRoute;
-			target = 13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */;
+			target = 17F2116CFE0E605631024A0EA5A07BB0 /* DZURLRoute */;
 			targetProxy = C606754CC5AFE2A50944E7D3F8FB001E /* PBXContainerItemProxy */;
-		};
-		AADEC04D308C0C2C03D2EF8EDA15D861 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSString-UrlEncode";
-			target = D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */;
-			targetProxy = 01AF29036713544E2AC74ADA8A674DFB /* PBXContainerItemProxy */;
 		};
 		C3C94262ACD3E197F4200C6F4AC851B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZViewControllerLifeCircleAction;
-			target = A24D3A66E3992AB679E034C4A81F3D1C /* DZViewControllerLifeCircleAction */;
+			target = 68C1A49EF0913DB85DE80E816AE6BAC2 /* DZViewControllerLifeCircleAction */;
 			targetProxy = AA7EAE232C23D33F1A785955C9B0C09D /* PBXContainerItemProxy */;
-		};
-		D72562E1F3DA8A8619EED8CB7B9BFD96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DZViewControllerLifeCircleAction;
-			target = A24D3A66E3992AB679E034C4A81F3D1C /* DZViewControllerLifeCircleAction */;
-			targetProxy = D0B3C2B3B5CD3D1AE40B11200FA5217A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		142AAEBB590A111B959C0B9EFBCFC9CD /* Release */ = {
+		090C2C4CF32CCBC69A0048888680C5C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B93BA6DC59BE85AA039F531B699DCC3 /* DZViewControllerLifeCircleAction.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -745,170 +750,12 @@
 			};
 			name = Release;
 		};
-		342A2DAB450B0B3776178DECC7F81068 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC167B49FC3BB4A61CD7F775B8FF9511 /* NSString-UrlEncode.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSString_UrlEncode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		35FF616E6AFB9F6E25D5E50B55DF0787 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC167B49FC3BB4A61CD7F775B8FF9511 /* NSString-UrlEncode.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSString_UrlEncode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3BDF1ECE8AB2F471FFBC6D0815AABBB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39F1DCD84F9768620D6A1CF04A65FF28 /* Pods-DZURLRoute_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DZURLRoute_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DZURLRoute_Tests/Pods-DZURLRoute_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DZURLRoute_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47E3F2C73ED5A225D37F0258615A1BD1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BFE93B49DCC18076598913AC9C42625 /* DZURLRoute.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DZURLRoute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		48CEA56EFD3D540E1C6EF21B8EDCCAB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B93BA6DC59BE85AA039F531B699DCC3 /* DZViewControllerLifeCircleAction.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZViewControllerLifeCircleAction/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DZViewControllerLifeCircleAction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -916,10 +763,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -948,10 +798,179 @@
 			};
 			name = Debug;
 		};
-		5FE60829FD8E0B34B664F7FAFBA3D63F /* Release */ = {
+		574AB3C2EC0704D64F7AFED08F06C7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFE93B49DCC18076598913AC9C42625 /* DZURLRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZURLRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E576E73C2D8B09A52AC418D4CE90599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F1DCD84F9768620D6A1CF04A65FF28 /* Pods-DZURLRoute_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZURLRoute_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZURLRoute_Tests/Pods-DZURLRoute_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZURLRoute_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74159A652D9E942A3B3471D271677E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC167B49FC3BB4A61CD7F775B8FF9511 /* NSString-UrlEncode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSString_UrlEncode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1A0F7FDE53A061B148FAC86AD954FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B98AB86F62FA6B2EEDB6D0E36A4279 /* Pods-DZURLRoute_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZURLRoute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZURLRoute_Example/Pods-DZURLRoute_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZURLRoute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D09F97351DC7336FE2800DBA8BCB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFE93B49DCC18076598913AC9C42625 /* DZURLRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZURLRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB42B0001B39D00FB33E247B925C31DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4CA3C9BC37E255162D3EF7F09BDE37D1 /* Pods-DZURLRoute_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -983,41 +1002,119 @@
 			};
 			name = Release;
 		};
-		8E4F934DCA3D29053DD29B9625164C15 /* Release */ = {
+		BC8C3754F7F3843E9B57353367EBC811 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BFE93B49DCC18076598913AC9C42625 /* DZURLRoute.xcconfig */;
+			baseConfigurationReference = 3B93BA6DC59BE85AA039F531B699DCC3 /* DZViewControllerLifeCircleAction.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZViewControllerLifeCircleAction/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DZURLRoute;
+				MODULEMAP_FILE = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZViewControllerLifeCircleAction;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
 			name = Release;
 		};
-		A16D2B8116791FCC132BC4EDEF930119 /* Debug */ = {
+		D01EBA08AF2B277F1821420499315E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC167B49FC3BB4A61CD7F775B8FF9511 /* NSString-UrlEncode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSString_UrlEncode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDA3594CAE64BCA26B3C967A65670B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC7ADDFC3FD5F341E5D3888CFD9AAA95 /* Pods-DZURLRoute_Example.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1049,107 +1146,41 @@
 			};
 			name = Debug;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C8681E443E089F336941387691F82165 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70B98AB86F62FA6B2EEDB6D0E36A4279 /* Pods-DZURLRoute_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DZURLRoute_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DZURLRoute_Example/Pods-DZURLRoute_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DZURLRoute_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		265A921C7AC054E77365463913F11B6F /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8C3754F7F3843E9B57353367EBC811 /* Debug */,
+				090C2C4CF32CCBC69A0048888680C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F7AC9D737DC704C65D4792DB8AB1EAC /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */ = {
+		33029A296E3CF4C736FFE2ACB20B8378 /* Build configuration list for PBXNativeTarget "DZURLRoute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				342A2DAB450B0B3776178DECC7F81068 /* Debug */,
-				35FF616E6AFB9F6E25D5E50B55DF0787 /* Release */,
+				B3D09F97351DC7336FE2800DBA8BCB2F /* Debug */,
+				574AB3C2EC0704D64F7AFED08F06C7D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F0F86506061B87BA3A675EC3CFCD705 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */ = {
+		7602CE974275C555C9E39FD488AE5F8C /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CEA56EFD3D540E1C6EF21B8EDCCAB3 /* Debug */,
-				142AAEBB590A111B959C0B9EFBCFC9CD /* Release */,
+				D01EBA08AF2B277F1821420499315E0D /* Debug */,
+				74159A652D9E942A3B3471D271677E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1157,8 +1188,8 @@
 		C581F34C0D10205CD1B48032B610FA2A /* Build configuration list for PBXNativeTarget "Pods-DZURLRoute_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BDF1ECE8AB2F471FFBC6D0815AABBB9 /* Debug */,
-				5FE60829FD8E0B34B664F7FAFBA3D63F /* Release */,
+				6E576E73C2D8B09A52AC418D4CE90599 /* Debug */,
+				BB42B0001B39D00FB33E247B925C31DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1166,17 +1197,8 @@
 		EC2CD15738EFC0B0C51A7A397F390473 /* Build configuration list for PBXNativeTarget "Pods-DZURLRoute_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A16D2B8116791FCC132BC4EDEF930119 /* Debug */,
-				C8681E443E089F336941387691F82165 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA009757C218A6D7E917DBE770CD1B57 /* Build configuration list for PBXNativeTarget "DZURLRoute" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47E3F2C73ED5A225D37F0258615A1BD1 /* Debug */,
-				8E4F934DCA3D29053DD29B9625164C15 /* Release */,
+				DDA3594CAE64BCA26B3C967A65670B17 /* Debug */,
+				A1A0F7FDE53A061B148FAC86AD954FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

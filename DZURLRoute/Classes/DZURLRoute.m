@@ -85,7 +85,7 @@
 
 - (BOOL) routeURL:(NSURL *)url
 {
-    [self routeURL:url context:nil];
+   return [self routeURL:url context:nil];
 }
 
 - (BOOL) routeURL:(NSURL*)url context:(DZRouteRequestContext *)context
