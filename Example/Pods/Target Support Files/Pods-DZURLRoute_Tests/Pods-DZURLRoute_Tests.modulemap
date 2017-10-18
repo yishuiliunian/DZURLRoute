@@ -1,6 +1,0 @@
-framework module Pods_DZURLRoute_Tests {
-  umbrella header "Pods-DZURLRoute_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

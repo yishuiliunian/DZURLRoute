@@ -1,6 +1,0 @@
-framework module DZURLRoute {
-  umbrella header "DZURLRoute-umbrella.h"
-
-  export *
-  module * { export * }
-}
