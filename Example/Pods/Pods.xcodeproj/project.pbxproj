@@ -107,7 +107,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E5CAFFAB950E708DDA7791A60DE3CC /* DZURLRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DZURLRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06E5CAFFAB950E708DDA7791A60DE3CC /* DZURLRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DZURLRoute.podspec; sourceTree = "<group>"; };
 		0CB18A3B79CC197041A2D98D32526449 /* DZURLRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteResponse.m; path = DZURLRoute/Classes/DZURLRouteResponse.m; sourceTree = "<group>"; };
 		0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_UrlEncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5DE033F55E577928152DE3BBD33F96 /* DZRouteRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZRouteRequestContext.m; path = DZURLRoute/Classes/DZRouteRequestContext.m; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		26DAAC4860EB8E8C851F3DCA8C5D2205 /* Pods-DZURLRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2B302E313F044853AF77A09A4ACA44D0 /* Pods-DZURLRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZURLRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DA928B8641C5376831864240A126B7C /* DZURLRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteRequest.m; path = DZURLRoute/Classes/DZURLRouteRequest.m; sourceTree = "<group>"; };
-		30E4B7993AC970B047E752EB76000F99 /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZURLRoute_Example.framework; path = "Pods-DZURLRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E4B7993AC970B047E752EB76000F99 /* Pods_DZURLRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319FA16AD75D4EEF17D897B83D9B483F /* Pods-DZURLRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		357DFB687C7B5900BB494B58607FCC00 /* NSString-UrlEncode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "NSString-UrlEncode.modulemap"; sourceTree = "<group>"; };
 		38FEBF619F01A57DF8B928A1F916CC29 /* DZURLRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZURLRoute-dummy.m"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		5913F8492CE82B57FFAC907667C2A7E5 /* NSString-UrlEncode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-prefix.pch"; sourceTree = "<group>"; };
 		5CE22B200C2B7003186CBF92A99F98AE /* DZRouteResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZRouteResponseContext.m; path = DZURLRoute/Classes/DZRouteResponseContext.m; sourceTree = "<group>"; };
 		6217E39C6B6FDB02157DCC74D0D6A066 /* DZViewControllerLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZViewControllerLifeCircleAction.h; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleAction.h; sourceTree = "<group>"; };
-		62CF090C5D5544EECC95A1E67EB6C2A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62CF090C5D5544EECC95A1E67EB6C2A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6539EF8112AE2626C75321C587792514 /* UIViewController+appearSwizzedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+appearSwizzedBlock.h"; path = "DZViewControllerLifeCircleAction/Classes/UIViewController+appearSwizzedBlock.h"; sourceTree = "<group>"; };
 		66448383A450945FED857089EE1A6FCB /* Pods-DZURLRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6B5035BF1BAFE503F80E7823C02A022D /* DZURLWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLWeakProxy.h; path = DZURLRoute/Classes/DZURLWeakProxy.h; sourceTree = "<group>"; };
@@ -149,11 +149,11 @@
 		83915DBFB465B0C84169C919A7B9A308 /* Pods-DZURLRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DZURLRoute_Tests.modulemap"; sourceTree = "<group>"; };
 		84F55A218FFE3D6D48CD9701FDAA9849 /* Pods-DZURLRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZURLRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85792E997DEB1B00743FB8461BE29A94 /* Pods-DZURLRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZURLRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		86DB686D0803542DA9321EC9433CD380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86DB686D0803542DA9321EC9433CD380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88686FA2F227CB3265B1C341978955C1 /* DZURLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLContext.m; path = DZURLRoute/Classes/DZURLContext.m; sourceTree = "<group>"; };
 		89DFE2474F8077FE0E65555D29B77149 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FB5FD2D75E82415A8ED8278CBEF2689 /* DZViewControllerLifeCircleAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DZViewControllerLifeCircleAction.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944296090E818E1667493C0D1129FF64 /* NSObject+DZURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DZURLRouter.m"; path = "DZURLRoute/Classes/NSObject+DZURLRouter.m"; sourceTree = "<group>"; };
 		A1F04614FDC5D1635FC67A1C08B66508 /* Pods-DZURLRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZURLRoute_Example-dummy.m"; sourceTree = "<group>"; };
 		A3599E13E889E66AAE24349DB7C0A135 /* DZViewControllerLifeCircleAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-prefix.pch"; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		B4FF73DA44507AAEEE964B1D61914E69 /* DZViewControllerLifeCircleAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZViewControllerLifeCircleAction-dummy.m"; sourceTree = "<group>"; };
 		B770AEEE6EDA4DB3B57320C9779F6119 /* NSString-UrlEncode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-umbrella.h"; sourceTree = "<group>"; };
 		B7B287F666D134E76CEEAB7D9545C48B /* DZURLRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRoute.m; path = DZURLRoute/Classes/DZURLRoute.m; sourceTree = "<group>"; };
-		BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_UrlEncode.framework; path = "NSString-UrlEncode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2CBCD5336BE0D3EBE1F10C8E9A4046 /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_UrlEncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2679B6118BE1EEA0C9012E74C27886 /* NSString-UrlEncode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-UrlEncode.xcconfig"; sourceTree = "<group>"; };
 		BD3662F883F08955DC01D07C2430CB79 /* DZURLRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRouteResponse.h; path = DZURLRoute/Classes/DZURLRouteResponse.h; sourceTree = "<group>"; };
 		BE0746BF7551FC023F2C8F01A85FB981 /* UINavigationController+ DZURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ DZURLRouter.m"; path = "DZURLRoute/Classes/UINavigationController+ DZURLRouter.m"; sourceTree = "<group>"; };
@@ -176,16 +176,16 @@
 		DB857056B4CAE0BB6DE585F272EA47B4 /* DZUIStackLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZUIStackLifeCircleAction.m; path = DZURLRoute/Classes/DZUIStackLifeCircleAction.m; sourceTree = "<group>"; };
 		DBBCC980FF3778B80B727B41262FF96E /* DZViewControllerLifeCircleBaseAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZViewControllerLifeCircleBaseAction.m; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleBaseAction.m; sourceTree = "<group>"; };
 		DCC3ECF660228F71E3C895E9760605CA /* DZViewControllerLifeCircleAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-umbrella.h"; sourceTree = "<group>"; };
-		DEAD3BD40B8F1DA8B10804F5F80DCB68 /* Pods_DZURLRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZURLRoute_Tests.framework; path = "Pods-DZURLRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAD3BD40B8F1DA8B10804F5F80DCB68 /* Pods_DZURLRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZURLRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0ADFC7153FF28BA354BB9E186607738 /* DZViewControllerLifeCircleBaseAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZViewControllerLifeCircleBaseAction.h; path = DZViewControllerLifeCircleAction/Classes/DZViewControllerLifeCircleBaseAction.h; sourceTree = "<group>"; };
 		E53ADB4FFBEEA552EF60CB8ECFB81AF3 /* Pods-DZURLRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZURLRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5FAC3FCF20C1B7D3994375159B38384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E66ABD9A7C31AE69A9581430A7717534 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E841D4BD8E52714B3059D6A6365881CC /* DZURLRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZURLRoute.framework; path = DZURLRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E841D4BD8E52714B3059D6A6365881CC /* DZURLRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZURLRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9F639012B744AB0CD1C75526F90EEB /* DZRouteResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZRouteResponseContext.h; path = DZURLRoute/Classes/DZRouteResponseContext.h; sourceTree = "<group>"; };
 		EBBFBE46194548F039007FB48C78FE9C /* DZURLWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLWeakProxy.m; path = DZURLRoute/Classes/DZURLWeakProxy.m; sourceTree = "<group>"; };
 		EC536D1D803D3D6CA339B0B82E9DD4D7 /* NSString-UrlEncode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-UrlEncode-dummy.m"; sourceTree = "<group>"; };
-		EEB2C22B76681ECD71643422CB52DDBE /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZViewControllerLifeCircleAction.framework; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB2C22B76681ECD71643422CB52DDBE /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB8981E498CEAC3B929300CE26F64D3 /* DZUIStackLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZUIStackLifeCircleAction.h; path = DZURLRoute/Classes/DZUIStackLifeCircleAction.h; sourceTree = "<group>"; };
 		F0DC8EFF9556B816DF39F5B6B983E342 /* Pods-DZURLRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Tests-resources.sh"; sourceTree = "<group>"; };
 		F108F29C5A34B2962965D87F92AF723F /* Pods-DZURLRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZURLRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -323,7 +323,6 @@
 				22742636735806262B85EE8161202A2F /* NSString+URLEncode.m */,
 				5A6EA66911A9F2AA4EBA10CE84A1B73E /* Support Files */,
 			);
-			name = "NSString-UrlEncode";
 			path = "NSString-UrlEncode";
 			sourceTree = "<group>";
 		};
@@ -401,7 +400,6 @@
 				528B0BC93F752E41520275172E2EE92E /* UIViewController+appearSwizzedBlock.m */,
 				72540B393D570294EE44C18164862AF2 /* Support Files */,
 			);
-			name = DZViewControllerLifeCircleAction;
 			path = DZViewControllerLifeCircleAction;
 			sourceTree = "<group>";
 		};
