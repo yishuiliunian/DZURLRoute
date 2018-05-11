@@ -8,6 +8,11 @@
 
 #import "DZURLContext.h"
 
+
+/**
+ The route request context. it contains some values for enviroment. for example : the UIViewController stack and so on.
+  the class design for  contains value that not only string.  URL query can pass string or interger value, but no object. this class can pass object value.
+ */
 @interface DZRouteRequestContext : DZURLContext
 /**
  the global ui stack

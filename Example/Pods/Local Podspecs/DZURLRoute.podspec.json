@@ -1,6 +1,6 @@
 {
   "name": "DZURLRoute",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "A short description of DZURLRoute.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yishuiliunian/DZURLRoute",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yishuiliunian/DZURLRoute.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "8.0"

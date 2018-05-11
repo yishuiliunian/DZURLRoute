@@ -10,6 +10,9 @@
 #import "DZURLRouteRequest.h"
 #import "DZURLDelayCommand.h"
 #import "DZUIStackLifeCircleAction.h"
+#import "NSObject+DZURLRouter.h"
+
+
 @interface DZURLRoute ()
 {
     NSMutableArray* _route;
@@ -109,6 +112,8 @@
         context = [DZRouteRequestContext new];
     }
     DZURLRouteRequest* request = [[DZURLRouteRequest alloc] initWithURL:url context:context];
+    
+    
     DZURLRouteResponse*(^Hanlde404)(void) = ^ {
         if (_404Record.handler && redirect) {
             return _404Record.handler(request);
@@ -123,7 +128,9 @@
         return Hanlde404();
     }
     if (record.handler) {
-        return record.handler(request);
+        DZURLRouteResponse* response = record.handler(request);
+        response.context.mainResource.dzSourceRouteURL = url;
+        return response;
     }
     // do not delete the below line , it will handle the rest logic if the function growing
     return Hanlde404();

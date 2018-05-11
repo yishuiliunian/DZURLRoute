@@ -22,12 +22,13 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         DZViewController *firstViewController = [storyboard instantiateViewControllerWithIdentifier:@"DZViewController"];
         [request.context.topNavigationController pushViewController:firstViewController animated:YES];
-        return [DZURLRouteResponse successResponse];
+        return [DZURLRouteResponse successResponseWithMainResouce:firstViewController];
     }];
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.dzSourceRouteURL = DZURLRouteQueryLink(kDZRoutePatternExampleViewController, @{});
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -39,7 +40,7 @@
 
 - (IBAction)showOtherController:(id)sender
 {
-    [[DZURLRoute defaultRoute] routeURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",kDZRoutePatternExmapleOtherController]]];
+    [[DZURLRoute defaultRoute] routeURL:DZURLRouteQueryLink(kDZRoutePatternExmapleOtherController, @{})];
 }
 
 

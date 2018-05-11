@@ -6,9 +6,12 @@
 [![Platform](https://img.shields.io/cocoapods/p/DZURLRoute.svg?style=flat)](http://cocoapods.org/pods/DZURLRoute)
 
 ## What's it
+
 DZURLRoute是支持基于标准URL进行Native页面间跳转的Objective-C实现。方便您架构页面之间高内聚低耦合的开发模式。他的核心思想是把每一个页面当成一个资源，通过标准的URL协议（统一资源定位符）来定位到每一个可触达的页面（资源）。
 
 在设计该类库的时候，进行了多伦次抽象。最后突然灵光一现，应该首先设计的是页面之间的规则。而当我们把页面看成一种资源，页面之间的的调用看成资源寻址和调用的时候。很容易就想到了URL的方式。通过一个简单的规则（URL）来页面之间的关系。没有那么多复杂的机制。只是一个规则，这个东西简单而美丽。一旦有了这个规则，剩下的事情就是如果去实现这个了。而DZURLRoute只是其中的一种实现，相信其他人还会有更好的实现版本，欢迎分享。
+
+> Next 看怎么扩展成一个 IOC 的基础类库
 
 ### Features
 #### URL唤起任意见面
@@ -17,6 +20,17 @@ DZURLRoute是支持基于标准URL进行Native页面间跳转的Objective-C实�
 ~~~
 [[DZURLRoute defaultRoute] routeURL:[NSURL URLWithString:@"scheme://host/path?query=xx"]];
 ~~~
+
+#### 在处理页面的时候每个返回的页面会绑定一个 SourceURL，您可以利用该 SourceURL 做些事情
+
+比如 NavigationController 回退到指定页面
+
+
+~~~
+    [self.navigationController popToPage:DZURLRouteQueryLink(kDZRoutePatternExampleViewController, @{})];
+~~~
+
+> 这是新增加的巨牛逼的功能！！！
 
 #### 采用标准的通配符进行URL匹配，并使用block的方式来处理请求。扩展性好。
 

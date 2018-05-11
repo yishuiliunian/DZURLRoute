@@ -10,4 +10,8 @@
 
 @interface DZRouteResponseContext : DZURLContext
 
+/**
+ the main resouce that hanlde the request
+ */
+@property (nonatomic, strong) NSObject* mainResource;
 @end

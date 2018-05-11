@@ -19,7 +19,7 @@
     
         DZOtherViewController* otherVC = [DZOtherViewController new];
         [request.context.topNavigationController pushViewController:otherVC animated:YES];
-        return [DZURLRouteResponse successResponse];
+        return [DZURLRouteResponse successResponseWithMainResouce:otherVC];
     }];
 }
 - (void)viewDidLoad {
@@ -42,6 +42,11 @@
 
 - (IBAction)send404Test:(id)sender {
     [[DZURLRoute defaultRoute] routeURL:[NSURL URLWithString:@"xhjshdjkf:Lsdhjehjkh"]];
+}
+
+- (IBAction)popToPreviousViewController:(id)sender
+{
+    [self.navigationController popToPage:DZURLRouteQueryLink(kDZRoutePatternExampleViewController, @{})];
 }
 /*
 #pragma mark - Navigation

@@ -12,7 +12,8 @@
 #import "DZURLRouteUtils.h"
 #import "DZUIStackLifeCircleAction.h"
 #import "DZURLRouteResponse.h"
-
+#import "UINavigationController+DZURLRouter.h"
+#import "NSObject+DZURLRouter.h"
 
 /**
  DZURLRoute is an lib to location any objective-c controller and route it. this call provide API. what you will do is just to add the handler , then route a url that is registed pattern.
@@ -76,7 +77,6 @@
  This function diffrent of ```routeURL:```. routeURL will route the url dirctly, but this function will be paused when your root ViewController disappeared. it is very usefully when another app wake up your app, and you will show some page.
  @param url the location of an page
  @param context the context will be past to handler. it may be some object that can't transform to NSString
- @return if router can  hanle the url, it will be YES, otherwise NO.
  */
 - (void) routePage:(NSURL*)url context:(DZRouteRequestContext*)context;
 

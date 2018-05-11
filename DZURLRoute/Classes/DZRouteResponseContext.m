@@ -9,5 +9,5 @@
 #import "DZRouteResponseContext.h"
 
 @implementation DZRouteResponseContext
-
+@synthesize mainResource = _mainResource;
 @end

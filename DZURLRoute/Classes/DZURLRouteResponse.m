@@ -16,6 +16,28 @@
 
 @implementation DZURLRouteResponse
 
++ (DZURLRouteResponse*) responseResult:(BOOL)result withMainResouce:(id)mainResource
+{
+    DZURLRouteResponse* response = [[DZURLRouteResponse alloc] initWithResult:result];
+    response.context.mainResource = mainResource;
+    return response;
+}
+
+
++ (DZURLRouteResponse*) successResponseWithMainResouce:(id)mainResource
+{
+    DZURLRouteResponse* response = [[DZURLRouteResponse alloc] initWithResult:YES];
+    response.context.mainResource = mainResource;
+    return response;
+}
+
++ (DZURLRouteResponse*) faildResponseWithMainResouce:(id)mainResource
+{
+    DZURLRouteResponse* response = [[DZURLRouteResponse alloc] initWithResult:NO];
+    response.context.mainResource = mainResource;
+    return response;
+}
+
 - (instancetype) initWithResult:(BOOL)result
 {
     self = [super init];
